@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  generation: 1
+  labels:
+    app.kubernetes.io/instance: asset-storage
+    app.kubernetes.io/name: asset-storage
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+  name: asset-storage
+  namespace: asset-storage
+spec:
+  ingressClassName: traefik
+  tls:
+    - hosts:
+        - assets.kak.im
+      secretName: asset-storage-tls
+  rules:
+  - host: assets.kak.im
+    http:
+      paths:
+      - backend:
+          service:
+            name: asset-storage
+            port:
+              number: 80
+        path: /
+        pathType: Prefix

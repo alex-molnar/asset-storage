@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: asset-storage
+  namespace: asset-storage
+  labels:
+    app: asset-storage
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: asset-storage
+  template:
+    metadata:
+      labels:
+        app: asset-storage
+    spec:
+      containers:
+      - name: asset-storage
+        image: kingbrady/asset-storage:0.1.0
+        ports:
+        - containerPort: 80
