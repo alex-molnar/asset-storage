@@ -4335,7 +4335,11 @@ export const countryData = {
         },
         "name": "The Kingdom of the Two Sicilies",
         "hemisphere": "Northern",
-        "continent": "Europe"
+        "continent": "Europe",
+        "population": 962003,
+        "pretty_population": "962k",
+        "latitude": 40.8518,
+        "longitude": 14.2681
     }
 };
 
