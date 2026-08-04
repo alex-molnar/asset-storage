@@ -62,7 +62,7 @@ function searchForSolution(e, solutions) {
     }
 }
 
-function hideSuggestions() {
+export function hideSuggestions() {
     let suggestionsContainer = document.getElementById("suggestions-container")
     suggestionsContainer.innerHTML = ""
     suggestionsContainer.classList.remove("show")
