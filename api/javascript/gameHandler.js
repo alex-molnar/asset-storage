@@ -4,7 +4,7 @@ let selectedSuggestionIndex = -1
 let alreadyGuessed = []
 const currentDate = new Date().toISOString().split("T")[0];
 
-function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCallback, submitGuessCallback) {
+export function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCallback, submitGuessCallback) {
     if (localStorage.getItem(`${gameTitle}-${currentDate}`) != null) {
         alreadyGuessed = JSON.parse(localStorage.getItem(`${gameTitle}-${currentDate}`))
     }
