@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: asset-storage-pipeline-sa
+  namespace: asset-storage
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: asset-storage-pipeline-sa-token
+  namespace: asset-storage
+  annotations:
+    kubernetes.io/service-account.name: asset-storage-pipeline-sa
+type: kubernetes.io/service-account-token
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: asset-storage-pipeline-sa-admin
+  namespace: asset-storage
+subjects:
+  - kind: ServiceAccount
+    name: asset-storage-pipeline-sa
+    namespace: asset-storage
+roleRef:
+  kind: ClusterRole
+  name: admin
+  apiGroup: rbac.authorization.k8s.io
