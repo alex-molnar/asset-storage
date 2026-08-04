@@ -86,7 +86,7 @@ export function getRandomSelectionForToday(selections, salt) {
   return selections[Math.floor((((a * seed + c) % m) / m) * selections.length)]
 }
 
-export function getItemForToday(site, item) {
+export function getItemForToday(site, item) { 
     if (localStorage.getItem(`${site}-${currentDate}`) != null) {
         return JSON.parse(localStorage.getItem(`${site}-${currentDate}`))
     } else {
@@ -95,3 +95,5 @@ export function getItemForToday(site, item) {
         return item
     }
 }
+
+// TODO implement handleLocalStorage for stats keeping
