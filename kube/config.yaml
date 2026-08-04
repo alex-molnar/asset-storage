@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Config
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUJkekNDQVIyZ0F3SUJBZ0lCQURBS0JnZ3Foa2pPUFFRREFqQWpNU0V3SHdZRFZRUUREQmhyTTNNdGMyVnkKZG1WeUxXTmhRREUzTkRVME9UYzBPRGt3SGhjTk1qVXdOREkwTVRJeU5EUTVXaGNOTXpVd05ESXlNVEl5TkRRNQpXakFqTVNFd0h3WURWUVFEREJock0zTXRjMlZ5ZG1WeUxXTmhRREUzTkRVME9UYzBPRGt3V1RBVEJnY3Foa2pPClBRSUJCZ2dxaGtqT1BRTUJCd05DQUFRYngrcUhhMGRNUVJ0NlJ1RnB3Y3F5NkNRODRVeUpSV3VkRzdGNGZKTUIKdy9McnZhZXhXd0o2SG9pSTBoUGZNWkFXaUticG82amloUldxR1hEY2xLK05vMEl3UURBT0JnTlZIUThCQWY4RQpCQU1DQXFRd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFRmdRVUhZdjdKMlRkd2V4N2IyK0txOGtQCmE1aHdHMnN3Q2dZSUtvWkl6ajBFQXdJRFNBQXdSUUlnQlZubENUODNnK2lueHFQTTZibjNRVEN2eVlDSmdYa1cKNHlKTUg2MnlKU1FDSVFDY2lDaG9TZFVoMnBPcld5dGRKWmdMTXpCOTBaSnlXMEZ4alh1cHJwUDdVQT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://89.98.53.177:6443
+  name: k8s
+contexts:
+- context:
+    cluster: k8s
+    namespace: asset-storage
+    user: pipeline-sa
+  name: pipeline-asset-storage
+current-context: pipeline-asset-storage
+users:
+- name: pipeline-sa
+  user:
+    token: #kubectl -n asset-storage get secret asset-storage-pipeline-sa-token -o jsonpath='{.data.token}' | base64 -d
