@@ -4,7 +4,7 @@ let selectedSuggestionIndex = -1
 let alreadyGuessed = []
 const currentDate = new Date().toISOString().split("T")[0];
 
-export function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCallback, submitGuessCallback) {
+export function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCallback) {
     if (localStorage.getItem(`${gameTitle}-${currentDate}`) != null) {
         alreadyGuessed = JSON.parse(localStorage.getItem(`${gameTitle}-${currentDate}`))
     }
@@ -12,16 +12,16 @@ export function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCa
 
     alreadyGuessed
         .filter(guess => guess !== todaysSolutionName)
-        .forEach((guess, index) => displayRowsCallback(guess, index + 1))
+        .forEach((guess, index) => displayRowsCallback(guess, index + 1, true))
     if (alreadyGuessed.includes(todaysSolutionName)) {
-        displayRowsCallback(todaysSolutionName, alreadyGuessed.length)
+        displayRowsCallback(todaysSolutionName, alreadyGuessed.length, true)
     } else {
         let guessInput = document.getElementById("guess-input")
         guessInput.addEventListener("input", (e) => searchForSolution(e, solutions))
         guessInput.addEventListener("keydown", handleKeyboardNavigation)
         guessInput.addEventListener("keypress", (e) => {
             if (e.key === "Enter") {
-                submitGuessCallback(e)
+                submitGuess(e, displayRowsCallback)
             }
         })
         guessInput.addEventListener("blur", () => {
@@ -29,8 +29,32 @@ export function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCa
         })
         guessInput.focus()
         guessInput.select()
-        document.getElementById("submit-button").addEventListener("click", submitGuessCallback)
+        document.getElementById("submit-button").addEventListener("click", (e) => submitGuess(e, displayRowsCallback))
     }
+}
+
+function submitGuess(e, displayRowsCallback) {
+    let guessInput = document.getElementById("guess-input")
+    let guess = guessInput.value
+    if (!solutions.includes(guess)) {
+        let firstChoice = solutions
+            .filter(solution => !alreadyGuessed.includes(solution))
+            .find(solution => solution.toLowerCase().startsWith(guess.toLowerCase().trim()) || solution.toLowerCase().includes(`(${guess.toLowerCase().trim()}`))
+        if (firstChoice && guess.toLowerCase().trim().length > 0) {
+            guessInput.value = firstChoice.trim()
+            submitGuess(e, displayRowsCallback)
+        } else if (guess.toLowerCase().trim().length > 0) {
+            alert(`Please select a valid ${gameTitle.unLe()} from the suggestions.`)
+        }
+    } else if (alreadyGuessed.includes(guess)) {
+        alert(`You have already guessed this ${gameTitle.unLe()}.`)
+    } else {
+        alreadyGuessed.push(guess)
+        localStorage.setItem(`${gameTitle}-${currentDate}`, JSON.stringify(alreadyGuessed))
+        guessInput.value = ""
+        displayRowsCallback(guess, alreadyGuessed.length, false)
+    } 
+    hideSuggestions()
 }
 
 function searchForSolution(e, solutions) {
@@ -62,7 +86,7 @@ function searchForSolution(e, solutions) {
     }
 }
 
-export function hideSuggestions() {
+function hideSuggestions() {
     let suggestionsContainer = document.getElementById("suggestions-container")
     suggestionsContainer.innerHTML = ""
     suggestionsContainer.classList.remove("show")
