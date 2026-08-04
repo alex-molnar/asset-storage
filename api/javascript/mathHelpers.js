@@ -1,5 +1,13 @@
 const currentDate = new Date().toISOString().split("T")[0];
 
+function toNum(str) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = hash + str.charCodeAt(i);
+    }
+    return parseInt((hash / str.length).toFixed(2).replace('.', ''));
+}
+
 export function mathDistance(lat1, lon1, lat2, lon2) {
     const R = 6371e3; // metres
     const φ1 = lat1 * Math.PI/180; // φ, λ in radians
@@ -68,8 +76,8 @@ export function getDirection(angle) {
     }
 }
 
-export function getRandomSelectionForToday(selections) {
-  const seed = parseInt(currentDate.replaceAll("-", ""));
+export function getRandomSelectionForToday(selections, salt) {
+  const seed = parseInt(currentDate.replaceAll("-", "")) + toNum(salt);
   // LCG using GCC's constants
   const m = 0x80000000; // 2**31;
   const a = 1103515245;
@@ -78,7 +86,7 @@ export function getRandomSelectionForToday(selections) {
   return selections[Math.floor((((a * seed + c) % m) / m) * selections.length)]
 }
 
-function getItemForToday(site, item) {
+export function getItemForToday(site, item) {
     if (localStorage.getItem(`${site}-${currentDate}`) != null) {
         return JSON.parse(localStorage.getItem(`${site}-${currentDate}`))
     } else {
