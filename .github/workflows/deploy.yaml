@@ -57,13 +57,13 @@ jobs:
 
       - name: Update asset storage deployment image tag
         run: |
-          sed -i "s|image: kingbrady/asset-storage:.*|image: kingbrady/asset-storage:${{ steps.version.outputs.VERSION }}|" kube/asset-storage/deployment.yaml
+          sed -i "s|image: kingbrady/asset-storage:.*|image: kingbrady/asset-storage:${{ steps.version.outputs.VERSION }}|" kube/deployment.yaml
 
       - name: Commit deployment version updates
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add kube/asset-storage/deployment.yaml
+          git add kube/deployment.yaml
           git diff --cached --quiet || git commit -m "chore: update deployment images to v${{ steps.version.outputs.VERSION }} [skip ci]"
           git push
 
@@ -78,7 +78,7 @@ jobs:
 
       - name: Deploy to Kubernetes
         run: |
-          kubectl apply -f kube/asset-storage/deployment.yaml
+          kubectl apply -f kube/deployment.yaml
           kubectl rollout status deployment/asset-storage -n asset-storage --timeout=300s
 
       - name: Cleanup kubeconfig
