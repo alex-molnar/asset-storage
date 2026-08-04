@@ -21,7 +21,7 @@ export function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCa
         guessInput.addEventListener("keydown", handleKeyboardNavigation)
         guessInput.addEventListener("keypress", (e) => {
             if (e.key === "Enter") {
-                submitGuess(e, solutions, displayRowsCallback)
+                submitGuess(e, gameTitle, solutions, displayRowsCallback)
             }
         })
         guessInput.addEventListener("blur", () => {
@@ -29,11 +29,11 @@ export function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCa
         })
         guessInput.focus()
         guessInput.select()
-        document.getElementById("submit-button").addEventListener("click", (e) => submitGuess(e, solutions, displayRowsCallback))
+        document.getElementById("submit-button").addEventListener("click", (e) => submitGuess(e, gameTitle, solutions, displayRowsCallback))
     }
 }
 
-function submitGuess(e, solutions, displayRowsCallback) {
+function submitGuess(e, gameTitle, solutions, displayRowsCallback) {
     let guessInput = document.getElementById("guess-input")
     let guess = guessInput.value
     if (!solutions.includes(guess)) {
@@ -42,7 +42,7 @@ function submitGuess(e, solutions, displayRowsCallback) {
             .find(solution => solution.toLowerCase().startsWith(guess.toLowerCase().trim()) || solution.toLowerCase().includes(`(${guess.toLowerCase().trim()}`))
         if (firstChoice && guess.toLowerCase().trim().length > 0) {
             guessInput.value = firstChoice.trim()
-            submitGuess(e, solutions, displayRowsCallback)
+            submitGuess(e, gameTitle, solutions, displayRowsCallback)
         } else if (guess.toLowerCase().trim().length > 0) {
             alert(`Please select a valid ${gameTitle.unLe()} from the suggestions.`)
         }
