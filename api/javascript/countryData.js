@@ -15,8 +15,8 @@ export const countryData = {
         "latitude": -0.522,
         "longitude": 166.931,
         "flag": "https://assets.kak.im/assets/original/nauru.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/nauru.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/nauru.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/nauru.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/nauru.png"
     },
     "Ecuador": {
         "capital": {
@@ -34,8 +34,8 @@ export const countryData = {
         "latitude": -0.229498,
         "longitude": -78.5243,
         "flag": "https://assets.kak.im/assets/original/ecuador.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/ecuador.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/ecuador.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/ecuador.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/ecuador.png"
     },
     "Turks and Caicos Islands": {
         "capital": {
@@ -53,8 +53,8 @@ export const countryData = {
         "latitude": 21.4602778,
         "longitude": -71.141389,
         "flag": "https://assets.kak.im/assets/original/turks-and-caicos-islands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/turks-and-caicos-islands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/turks-and-caicos-islands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/turks-and-caicos-islands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/turks-and-caicos-islands.png"
     },
     "Rwanda": {
         "capital": {
@@ -72,8 +72,8 @@ export const countryData = {
         "latitude": -1.95325,
         "longitude": 30.0587,
         "flag": "https://assets.kak.im/assets/original/rwanda.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/rwanda.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/rwanda.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/rwanda.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/rwanda.png"
     },
     "Gabon": {
         "capital": {
@@ -91,8 +91,8 @@ export const countryData = {
         "latitude": 0.38832,
         "longitude": 9.45162,
         "flag": "https://assets.kak.im/assets/original/gabon.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/gabon.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/gabon.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/gabon.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/gabon.png"
     },
     "Curaçao": {
         "capital": {
@@ -110,8 +110,8 @@ export const countryData = {
         "latitude": 12.169,
         "longitude": -68.99,
         "flag": "https://assets.kak.im/assets/original/curaçao.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/curaçao.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/curaçao.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/curaçao.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/curaçao.png"
     },
     "South Sudan": {
         "capital": {
@@ -129,8 +129,8 @@ export const countryData = {
         "latitude": 4.85,
         "longitude": 31.6,
         "flag": "https://assets.kak.im/assets/original/south-sudan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/south-sudan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/south-sudan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/south-sudan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/south-sudan.png"
     },
     "Suriname": {
         "capital": {
@@ -148,8 +148,8 @@ export const countryData = {
         "latitude": 5.8232,
         "longitude": -55.1679,
         "flag": "https://assets.kak.im/assets/original/suriname.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/suriname.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/suriname.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/suriname.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/suriname.png"
     },
     "Mauritius": {
         "capital": {
@@ -167,8 +167,8 @@ export const countryData = {
         "latitude": -20.1605,
         "longitude": 57.4977,
         "flag": "https://assets.kak.im/assets/original/mauritius.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/mauritius.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/mauritius.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/mauritius.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/mauritius.png"
     },
     "Saint Pierre and Miquelon": {
         "capital": {
@@ -186,8 +186,8 @@ export const countryData = {
         "latitude": 46.885,
         "longitude": -56.316,
         "flag": "https://assets.kak.im/assets/original/saint-pierre-and-miquelon.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/saint-pierre-and-miquelon.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/saint-pierre-and-miquelon.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/saint-pierre-and-miquelon.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/saint-pierre-and-miquelon.png"
     },
     "Anguilla": {
         "capital": {
@@ -205,8 +205,8 @@ export const countryData = {
         "latitude": 18.22,
         "longitude": -63.068,
         "flag": "https://assets.kak.im/assets/original/anguilla.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/anguilla.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/anguilla.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/anguilla.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/anguilla.png"
     },
     "Argentina": {
         "capital": {
@@ -224,8 +224,8 @@ export const countryData = {
         "latitude": -34.6118,
         "longitude": -58.4173,
         "flag": "https://assets.kak.im/assets/original/argentina.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/argentina.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/argentina.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/argentina.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/argentina.png"
     },
     "Colombia": {
         "capital": {
@@ -243,8 +243,8 @@ export const countryData = {
         "latitude": 4.60987,
         "longitude": -74.082,
         "flag": "https://assets.kak.im/assets/original/colombia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/colombia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/colombia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/colombia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/colombia.png"
     },
     "Tunisia": {
         "capital": {
@@ -262,8 +262,8 @@ export const countryData = {
         "latitude": 36.7899,
         "longitude": 10.21,
         "flag": "https://assets.kak.im/assets/original/tunisia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/tunisia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/tunisia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/tunisia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/tunisia.png"
     },
     "Guyana": {
         "capital": {
@@ -281,8 +281,8 @@ export const countryData = {
         "latitude": 6.80461,
         "longitude": -58.1548,
         "flag": "https://assets.kak.im/assets/original/guyana.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/guyana.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/guyana.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/guyana.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/guyana.png"
     },
     "Malawi": {
         "capital": {
@@ -300,8 +300,8 @@ export const countryData = {
         "latitude": -13.9899,
         "longitude": 33.7703,
         "flag": "https://assets.kak.im/assets/original/malawi.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/malawi.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/malawi.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/malawi.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/malawi.png"
     },
     "Austria": {
         "capital": {
@@ -319,8 +319,8 @@ export const countryData = {
         "latitude": 48.2201,
         "longitude": 16.3798,
         "flag": "https://assets.kak.im/assets/original/austria.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/austria.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/austria.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/austria.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/austria.png"
     },
     "Fiji": {
         "capital": {
@@ -338,8 +338,8 @@ export const countryData = {
         "latitude": -18.1149,
         "longitude": 178.399,
         "flag": "https://assets.kak.im/assets/original/fiji.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/fiji.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/fiji.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/fiji.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/fiji.png"
     },
     "Belize": {
         "capital": {
@@ -357,8 +357,8 @@ export const countryData = {
         "latitude": 17.2534,
         "longitude": -88.7713,
         "flag": "https://assets.kak.im/assets/original/belize.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/belize.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/belize.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/belize.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/belize.png"
     },
     "Greenland": {
         "capital": {
@@ -376,8 +376,8 @@ export const countryData = {
         "latitude": 64.1836,
         "longitude": -51.7214,
         "flag": "https://assets.kak.im/assets/original/greenland.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/greenland.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/greenland.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/greenland.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/greenland.png"
     },
     "Singapore": {
         "capital": {
@@ -395,8 +395,8 @@ export const countryData = {
         "latitude": 1.28941,
         "longitude": 103.85,
         "flag": "https://assets.kak.im/assets/original/singapore.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/singapore.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/singapore.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/singapore.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/singapore.png"
     },
     "Saint Kitts and Nevis": {
         "capital": {
@@ -414,8 +414,8 @@ export const countryData = {
         "latitude": 17.3,
         "longitude": -62.7309,
         "flag": "https://assets.kak.im/assets/original/saint-kitts-and-nevis.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/saint-kitts-and-nevis.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/saint-kitts-and-nevis.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/saint-kitts-and-nevis.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/saint-kitts-and-nevis.png"
     },
     "Romania": {
         "capital": {
@@ -433,8 +433,8 @@ export const countryData = {
         "latitude": 44.4479,
         "longitude": 26.0979,
         "flag": "https://assets.kak.im/assets/original/romania.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/romania.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/romania.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/romania.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/romania.png"
     },
     "Uzbekistan": {
         "capital": {
@@ -452,8 +452,8 @@ export const countryData = {
         "latitude": 41.3052,
         "longitude": 69.269,
         "flag": "https://assets.kak.im/assets/original/uzbekistan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/uzbekistan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/uzbekistan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/uzbekistan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/uzbekistan.png"
     },
     "Namibia": {
         "capital": {
@@ -471,8 +471,8 @@ export const countryData = {
         "latitude": -22.5648,
         "longitude": 17.0931,
         "flag": "https://assets.kak.im/assets/original/namibia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/namibia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/namibia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/namibia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/namibia.png"
     },
     "Chile": {
         "capital": {
@@ -490,8 +490,8 @@ export const countryData = {
         "latitude": -33.475,
         "longitude": -70.6475,
         "flag": "https://assets.kak.im/assets/original/chile.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/chile.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/chile.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/chile.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/chile.png"
     },
     "Bulgaria": {
         "capital": {
@@ -509,8 +509,8 @@ export const countryData = {
         "latitude": 42.7105,
         "longitude": 23.3238,
         "flag": "https://assets.kak.im/assets/original/bulgaria.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/bulgaria.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/bulgaria.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/bulgaria.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/bulgaria.png"
     },
     "Cambodia": {
         "capital": {
@@ -528,8 +528,8 @@ export const countryData = {
         "latitude": 11.5556,
         "longitude": 104.874,
         "flag": "https://assets.kak.im/assets/original/cambodia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/cambodia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/cambodia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/cambodia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/cambodia.png"
     },
     "The Gambia": {
         "capital": {
@@ -547,8 +547,8 @@ export const countryData = {
         "latitude": 13.443,
         "longitude": -15.31,
         "flag": "https://assets.kak.im/assets/original/the-gambia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/the-gambia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/the-gambia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/the-gambia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/the-gambia.png"
     },
     "Uruguay": {
         "capital": {
@@ -566,8 +566,8 @@ export const countryData = {
         "latitude": -34.8941,
         "longitude": -56.0675,
         "flag": "https://assets.kak.im/assets/original/uruguay.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/uruguay.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/uruguay.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/uruguay.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/uruguay.png"
     },
     "Norfolk Island": {
         "capital": {
@@ -585,8 +585,8 @@ export const countryData = {
         "latitude": -29.04,
         "longitude": 167.954,
         "flag": "https://assets.kak.im/assets/original/norfolk-island.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/norfolk-island.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/norfolk-island.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/norfolk-island.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/norfolk-island.png"
     },
     "American Samoa": {
         "capital": {
@@ -604,8 +604,8 @@ export const countryData = {
         "latitude": -14.2846,
         "longitude": -170.691,
         "flag": "https://assets.kak.im/assets/original/american-samoa.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/american-samoa.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/american-samoa.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/american-samoa.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/american-samoa.png"
     },
     "Thailand": {
         "capital": {
@@ -623,8 +623,8 @@ export const countryData = {
         "latitude": 13.7308,
         "longitude": 100.521,
         "flag": "https://assets.kak.im/assets/original/thailand.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/thailand.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/thailand.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/thailand.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/thailand.png"
     },
     "Cuba": {
         "capital": {
@@ -642,8 +642,8 @@ export const countryData = {
         "latitude": 23.1333,
         "longitude": -82.3667,
         "flag": "https://assets.kak.im/assets/original/cuba.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/cuba.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/cuba.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/cuba.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/cuba.png"
     },
     "Honduras": {
         "capital": {
@@ -661,8 +661,8 @@ export const countryData = {
         "latitude": 15.1333,
         "longitude": -87.4667,
         "flag": "https://assets.kak.im/assets/original/honduras.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/honduras.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/honduras.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/honduras.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/honduras.png"
     },
     "Samoa": {
         "capital": {
@@ -680,8 +680,8 @@ export const countryData = {
         "latitude": -13.8314,
         "longitude": -171.752,
         "flag": "https://assets.kak.im/assets/original/samoa.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/samoa.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/samoa.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/samoa.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/samoa.png"
     },
     "Denmark": {
         "capital": {
@@ -699,8 +699,8 @@ export const countryData = {
         "latitude": 55.6763,
         "longitude": 12.5681,
         "flag": "https://assets.kak.im/assets/original/denmark.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/denmark.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/denmark.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/denmark.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/denmark.png"
     },
     "Chad": {
         "capital": {
@@ -718,8 +718,8 @@ export const countryData = {
         "latitude": 12.1048,
         "longitude": 15.0445,
         "flag": "https://assets.kak.im/assets/original/chad.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/chad.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/chad.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/chad.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/chad.png"
     },
     "Luxembourg": {
         "capital": {
@@ -737,8 +737,8 @@ export const countryData = {
         "latitude": 49.61,
         "longitude": 6.1296,
         "flag": "https://assets.kak.im/assets/original/luxembourg.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/luxembourg.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/luxembourg.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/luxembourg.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/luxembourg.png"
     },
     "Egypt": {
         "capital": {
@@ -756,8 +756,8 @@ export const countryData = {
         "latitude": 30.0982,
         "longitude": 31.2461,
         "flag": "https://assets.kak.im/assets/original/egypt.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/egypt.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/egypt.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/egypt.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/egypt.png"
     },
     "Vietnam": {
         "capital": {
@@ -775,8 +775,8 @@ export const countryData = {
         "latitude": 21.0069,
         "longitude": 105.825,
         "flag": "https://assets.kak.im/assets/original/vietnam.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/vietnam.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/vietnam.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/vietnam.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/vietnam.png"
     },
     "Slovakia": {
         "capital": {
@@ -794,8 +794,8 @@ export const countryData = {
         "latitude": 48.1484,
         "longitude": 17.1073,
         "flag": "https://assets.kak.im/assets/original/slovakia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/slovakia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/slovakia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/slovakia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/slovakia.png"
     },
     "Bolivia": {
         "capital": {
@@ -813,8 +813,8 @@ export const countryData = {
         "latitude": -13.9908,
         "longitude": -66.1936,
         "flag": "https://assets.kak.im/assets/original/bolivia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/bolivia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/bolivia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/bolivia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/bolivia.png"
     },
     "Kyrgyzstan": {
         "capital": {
@@ -832,8 +832,8 @@ export const countryData = {
         "latitude": 42.8851,
         "longitude": 74.6057,
         "flag": "https://assets.kak.im/assets/original/kyrgyzstan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/kyrgyzstan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/kyrgyzstan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/kyrgyzstan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/kyrgyzstan.png"
     },
     "Ukraine": {
         "capital": {
@@ -851,8 +851,8 @@ export const countryData = {
         "latitude": 50.4536,
         "longitude": 30.5038,
         "flag": "https://assets.kak.im/assets/original/ukraine.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/ukraine.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/ukraine.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/ukraine.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/ukraine.png"
     },
     "Caribbean Netherlands": {
         "capital": {
@@ -870,8 +870,8 @@ export const countryData = {
         "latitude": 12.178,
         "longitude": -68.238,
         "flag": "https://assets.kak.im/assets/original/caribbean-netherlands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/caribbean-netherlands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/caribbean-netherlands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/caribbean-netherlands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/caribbean-netherlands.png"
     },
     "Dominican Republic": {
         "capital": {
@@ -889,8 +889,8 @@ export const countryData = {
         "latitude": 18.479,
         "longitude": -69.8908,
         "flag": "https://assets.kak.im/assets/original/dominican-republic.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/dominican-republic.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/dominican-republic.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/dominican-republic.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/dominican-republic.png"
     },
     "Aruba": {
         "capital": {
@@ -908,8 +908,8 @@ export const countryData = {
         "latitude": 12.5167,
         "longitude": -70.0167,
         "flag": "https://assets.kak.im/assets/original/aruba.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/aruba.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/aruba.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/aruba.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/aruba.png"
     },
     "Brazil": {
         "capital": {
@@ -927,8 +927,8 @@ export const countryData = {
         "latitude": -15.7801,
         "longitude": -47.9292,
         "flag": "https://assets.kak.im/assets/original/brazil.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/brazil.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/brazil.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/brazil.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/brazil.png"
     },
     "Sierra Leone": {
         "capital": {
@@ -946,8 +946,8 @@ export const countryData = {
         "latitude": 8.4821,
         "longitude": -13.2134,
         "flag": "https://assets.kak.im/assets/original/sierra-leone.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/sierra-leone.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/sierra-leone.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/sierra-leone.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/sierra-leone.png"
     },
     "US Virgin Islands": {
         "capital": {
@@ -965,8 +965,8 @@ export const countryData = {
         "latitude": 18.335,
         "longitude": -64.896,
         "flag": "https://assets.kak.im/assets/original/us-virgin-islands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/us-virgin-islands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/us-virgin-islands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/us-virgin-islands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/us-virgin-islands.png"
     },
     "Angola": {
         "capital": {
@@ -984,8 +984,8 @@ export const countryData = {
         "latitude": -8.81155,
         "longitude": 13.242,
         "flag": "https://assets.kak.im/assets/original/angola.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/angola.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/angola.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/angola.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/angola.png"
     },
     "Mozambique": {
         "capital": {
@@ -1003,8 +1003,8 @@ export const countryData = {
         "latitude": -25.9664,
         "longitude": 32.5713,
         "flag": "https://assets.kak.im/assets/original/mozambique.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/mozambique.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/mozambique.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/mozambique.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/mozambique.png"
     },
     "Australia": {
         "capital": {
@@ -1022,8 +1022,8 @@ export const countryData = {
         "latitude": -35.282,
         "longitude": 149.129,
         "flag": "https://assets.kak.im/assets/original/australia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/australia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/australia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/australia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/australia.png"
     },
     "Belgium": {
         "capital": {
@@ -1041,8 +1041,8 @@ export const countryData = {
         "latitude": 50.8371,
         "longitude": 4.36761,
         "flag": "https://assets.kak.im/assets/original/belgium.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/belgium.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/belgium.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/belgium.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/belgium.png"
     },
     "Palau": {
         "capital": {
@@ -1060,8 +1060,8 @@ export const countryData = {
         "latitude": 7.34194,
         "longitude": 134.479,
         "flag": "https://assets.kak.im/assets/original/palau.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/palau.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/palau.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/palau.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/palau.png"
     },
     "Antigua and Barbuda": {
         "capital": {
@@ -1079,8 +1079,8 @@ export const countryData = {
         "latitude": 17.1175,
         "longitude": -61.8456,
         "flag": "https://assets.kak.im/assets/original/antigua-and-barbuda.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/antigua-and-barbuda.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/antigua-and-barbuda.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/antigua-and-barbuda.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/antigua-and-barbuda.png"
     },
     "Senegal": {
         "capital": {
@@ -1098,8 +1098,8 @@ export const countryData = {
         "latitude": 14.7247,
         "longitude": -17.4734,
         "flag": "https://assets.kak.im/assets/original/senegal.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/senegal.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/senegal.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/senegal.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/senegal.png"
     },
     "Qatar": {
         "capital": {
@@ -1117,8 +1117,8 @@ export const countryData = {
         "latitude": 25.2948,
         "longitude": 51.5082,
         "flag": "https://assets.kak.im/assets/original/qatar.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/qatar.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/qatar.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/qatar.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/qatar.png"
     },
     "Kenya": {
         "capital": {
@@ -1136,8 +1136,8 @@ export const countryData = {
         "latitude": -1.27975,
         "longitude": 36.8126,
         "flag": "https://assets.kak.im/assets/original/kenya.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/kenya.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/kenya.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/kenya.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/kenya.png"
     },
     "Uganda": {
         "capital": {
@@ -1155,8 +1155,8 @@ export const countryData = {
         "latitude": 0.314269,
         "longitude": 32.5729,
         "flag": "https://assets.kak.im/assets/original/uganda.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/uganda.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/uganda.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/uganda.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/uganda.png"
     },
     "Cape Verde": {
         "capital": {
@@ -1174,8 +1174,8 @@ export const countryData = {
         "latitude": 14.9218,
         "longitude": -23.5087,
         "flag": "https://assets.kak.im/assets/original/cape-verde.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/cape-verde.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/cape-verde.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/cape-verde.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/cape-verde.png"
     },
     "Spain": {
         "capital": {
@@ -1193,8 +1193,8 @@ export const countryData = {
         "latitude": 40.4167,
         "longitude": -3.70327,
         "flag": "https://assets.kak.im/assets/original/spain.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/spain.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/spain.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/spain.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/spain.png"
     },
     "Lebanon": {
         "capital": {
@@ -1212,8 +1212,8 @@ export const countryData = {
         "latitude": 33.8872,
         "longitude": 35.5134,
         "flag": "https://assets.kak.im/assets/original/lebanon.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/lebanon.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/lebanon.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/lebanon.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/lebanon.png"
     },
     "Iran": {
         "capital": {
@@ -1231,8 +1231,8 @@ export const countryData = {
         "latitude": 35.6878,
         "longitude": 51.4447,
         "flag": "https://assets.kak.im/assets/original/iran.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/iran.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/iran.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/iran.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/iran.png"
     },
     "Benin": {
         "capital": {
@@ -1250,8 +1250,8 @@ export const countryData = {
         "latitude": 6.4779,
         "longitude": 2.6323,
         "flag": "https://assets.kak.im/assets/original/benin.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/benin.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/benin.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/benin.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/benin.png"
     },
     "San Marino": {
         "capital": {
@@ -1269,8 +1269,8 @@ export const countryData = {
         "latitude": 43.9322,
         "longitude": 12.4486,
         "flag": "https://assets.kak.im/assets/original/san-marino.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/san-marino.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/san-marino.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/san-marino.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/san-marino.png"
     },
     "Nicaragua": {
         "capital": {
@@ -1288,8 +1288,8 @@ export const countryData = {
         "latitude": 12.1475,
         "longitude": -86.2734,
         "flag": "https://assets.kak.im/assets/original/nicaragua.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/nicaragua.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/nicaragua.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/nicaragua.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/nicaragua.png"
     },
     "Netherlands": {
         "capital": {
@@ -1307,8 +1307,8 @@ export const countryData = {
         "latitude": 52.3738,
         "longitude": 4.89095,
         "flag": "https://assets.kak.im/assets/original/netherlands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/netherlands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/netherlands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/netherlands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/netherlands.png"
     },
     "Democratic Republic of the Congo": {
         "capital": {
@@ -1326,8 +1326,8 @@ export const countryData = {
         "latitude": -4.038,
         "longitude": 21.759,
         "flag": "https://assets.kak.im/assets/original/democratic-republic-of-the-congo.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/democratic-republic-of-the-congo.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/democratic-republic-of-the-congo.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/democratic-republic-of-the-congo.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/democratic-republic-of-the-congo.png"
     },
     "Cook Islands": {
         "capital": {
@@ -1345,8 +1345,8 @@ export const countryData = {
         "latitude": -21.237,
         "longitude": -159.778,
         "flag": "https://assets.kak.im/assets/original/cook-islands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/cook-islands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/cook-islands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/cook-islands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/cook-islands.png"
     },
     "Zimbabwe": {
         "capital": {
@@ -1364,8 +1364,8 @@ export const countryData = {
         "latitude": -17.8312,
         "longitude": 31.0672,
         "flag": "https://assets.kak.im/assets/original/zimbabwe.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/zimbabwe.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/zimbabwe.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/zimbabwe.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/zimbabwe.png"
     },
     "British Virgin Islands": {
         "capital": {
@@ -1383,8 +1383,8 @@ export const countryData = {
         "latitude": 18.431389,
         "longitude": -64.623056,
         "flag": "https://assets.kak.im/assets/original/british-virgin-islands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/british-virgin-islands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/british-virgin-islands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/british-virgin-islands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/british-virgin-islands.png"
     },
     "Montserrat": {
         "capital": {
@@ -1402,8 +1402,8 @@ export const countryData = {
         "latitude": 16.742,
         "longitude": -62.187,
         "flag": "https://assets.kak.im/assets/original/montserrat.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/montserrat.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/montserrat.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/montserrat.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/montserrat.png"
     },
     "Ethiopia": {
         "capital": {
@@ -1421,8 +1421,8 @@ export const countryData = {
         "latitude": 9.02274,
         "longitude": 38.7468,
         "flag": "https://assets.kak.im/assets/original/ethiopia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/ethiopia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/ethiopia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/ethiopia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/ethiopia.png"
     },
     "Republic of Congo": {
         "capital": {
@@ -1440,8 +1440,8 @@ export const countryData = {
         "latitude": -0.228,
         "longitude": 15.827,
         "flag": "https://assets.kak.im/assets/original/republic-of-congo.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/republic-of-congo.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/republic-of-congo.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/republic-of-congo.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/republic-of-congo.png"
     },
     "Western Sahara": {
         "capital": {
@@ -1459,8 +1459,8 @@ export const countryData = {
         "latitude": 24.215,
         "longitude": -12.886,
         "flag": "https://assets.kak.im/assets/original/western-sahara.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/western-sahara.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/western-sahara.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/western-sahara.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/western-sahara.png"
     },
     "Isle of Man": {
         "capital": {
@@ -1478,8 +1478,8 @@ export const countryData = {
         "latitude": 54.1509,
         "longitude": -4.47928,
         "flag": "https://assets.kak.im/assets/original/isle-of-man.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/isle-of-man.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/isle-of-man.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/isle-of-man.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/isle-of-man.png"
     },
     "Puerto Rico": {
         "capital": {
@@ -1497,8 +1497,8 @@ export const countryData = {
         "latitude": 18.221,
         "longitude": -66.59,
         "flag": "https://assets.kak.im/assets/original/puerto-rico.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/puerto-rico.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/puerto-rico.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/puerto-rico.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/puerto-rico.png"
     },
     "Somalia": {
         "capital": {
@@ -1516,8 +1516,8 @@ export const countryData = {
         "latitude": 5.152,
         "longitude": 46.2,
         "flag": "https://assets.kak.im/assets/original/somalia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/somalia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/somalia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/somalia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/somalia.png"
     },
     "France": {
         "capital": {
@@ -1535,8 +1535,8 @@ export const countryData = {
         "latitude": 48.8566,
         "longitude": 2.35097,
         "flag": "https://assets.kak.im/assets/original/france.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/france.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/france.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/france.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/france.png"
     },
     "Saint Helena": {
         "capital": {
@@ -1554,8 +1554,8 @@ export const countryData = {
         "latitude": -15.965,
         "longitude": -5.702,
         "flag": "https://assets.kak.im/assets/original/saint-helena.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/saint-helena.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/saint-helena.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/saint-helena.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/saint-helena.png"
     },
     "Maldives": {
         "capital": {
@@ -1573,8 +1573,8 @@ export const countryData = {
         "latitude": 4.1742,
         "longitude": 73.5109,
         "flag": "https://assets.kak.im/assets/original/maldives.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/maldives.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/maldives.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/maldives.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/maldives.png"
     },
     "Nepal": {
         "capital": {
@@ -1592,8 +1592,8 @@ export const countryData = {
         "latitude": 27.6939,
         "longitude": 85.3157,
         "flag": "https://assets.kak.im/assets/original/nepal.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/nepal.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/nepal.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/nepal.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/nepal.png"
     },
     "Kuwait": {
         "capital": {
@@ -1611,8 +1611,8 @@ export const countryData = {
         "latitude": 29.3721,
         "longitude": 47.9824,
         "flag": "https://assets.kak.im/assets/original/kuwait.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/kuwait.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/kuwait.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/kuwait.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/kuwait.png"
     },
     "Mongolia": {
         "capital": {
@@ -1630,8 +1630,8 @@ export const countryData = {
         "latitude": 47.9129,
         "longitude": 106.937,
         "flag": "https://assets.kak.im/assets/original/mongolia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/mongolia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/mongolia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/mongolia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/mongolia.png"
     },
     "Iceland": {
         "capital": {
@@ -1649,8 +1649,8 @@ export const countryData = {
         "latitude": 64.1353,
         "longitude": -21.8952,
         "flag": "https://assets.kak.im/assets/original/iceland.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/iceland.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/iceland.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/iceland.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/iceland.png"
     },
     "Ireland": {
         "capital": {
@@ -1668,8 +1668,8 @@ export const countryData = {
         "latitude": 53.3441,
         "longitude": -6.26749,
         "flag": "https://assets.kak.im/assets/original/ireland.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/ireland.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/ireland.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/ireland.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/ireland.png"
     },
     "North Korea": {
         "capital": {
@@ -1687,8 +1687,8 @@ export const countryData = {
         "latitude": 39.0319,
         "longitude": 125.754,
         "flag": "https://assets.kak.im/assets/original/north-korea.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/north-korea.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/north-korea.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/north-korea.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/north-korea.png"
     },
     "Kosovo": {
         "capital": {
@@ -1706,8 +1706,8 @@ export const countryData = {
         "latitude": 42.565,
         "longitude": 20.926,
         "flag": "https://assets.kak.im/assets/original/kosovo.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/kosovo.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/kosovo.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/kosovo.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/kosovo.png"
     },
     "United Kingdom": {
         "capital": {
@@ -1725,8 +1725,8 @@ export const countryData = {
         "latitude": 51.5002,
         "longitude": -0.126236,
         "flag": "https://assets.kak.im/assets/original/united-kingdom.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/united-kingdom.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/united-kingdom.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/united-kingdom.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/united-kingdom.png"
     },
     "Syria": {
         "capital": {
@@ -1744,8 +1744,8 @@ export const countryData = {
         "latitude": 33.5146,
         "longitude": 36.3119,
         "flag": "https://assets.kak.im/assets/original/syria.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/syria.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/syria.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/syria.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/syria.png"
     },
     "Bahamas": {
         "capital": {
@@ -1763,8 +1763,8 @@ export const countryData = {
         "latitude": 25.0661,
         "longitude": -77.339,
         "flag": "https://assets.kak.im/assets/original/bahamas.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/bahamas.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/bahamas.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/bahamas.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/bahamas.png"
     },
     "South Korea": {
         "capital": {
@@ -1782,8 +1782,8 @@ export const countryData = {
         "latitude": 37.5323,
         "longitude": 126.957,
         "flag": "https://assets.kak.im/assets/original/south-korea.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/south-korea.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/south-korea.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/south-korea.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/south-korea.png"
     },
     "Nigeria": {
         "capital": {
@@ -1801,8 +1801,8 @@ export const countryData = {
         "latitude": 9.05804,
         "longitude": 7.48906,
         "flag": "https://assets.kak.im/assets/original/nigeria.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/nigeria.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/nigeria.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/nigeria.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/nigeria.png"
     },
     "Vatican City": {
         "capital": {
@@ -1820,8 +1820,8 @@ export const countryData = {
         "latitude": 41.902,
         "longitude": 12.453,
         "flag": "https://assets.kak.im/assets/original/vatican-city.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/vatican-city.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/vatican-city.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/vatican-city.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/vatican-city.png"
     },
     "Vanuatu": {
         "capital": {
@@ -1839,8 +1839,8 @@ export const countryData = {
         "latitude": -17.7404,
         "longitude": 168.321,
         "flag": "https://assets.kak.im/assets/original/vanuatu.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/vanuatu.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/vanuatu.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/vanuatu.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/vanuatu.png"
     },
     "Haiti": {
         "capital": {
@@ -1858,8 +1858,8 @@ export const countryData = {
         "latitude": 18.5392,
         "longitude": -72.3288,
         "flag": "https://assets.kak.im/assets/original/haiti.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/haiti.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/haiti.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/haiti.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/haiti.png"
     },
     "New Caledonia": {
         "capital": {
@@ -1877,8 +1877,8 @@ export const countryData = {
         "latitude": -22.2677,
         "longitude": 166.464,
         "flag": "https://assets.kak.im/assets/original/new-caledonia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/new-caledonia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/new-caledonia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/new-caledonia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/new-caledonia.png"
     },
     "Tonga": {
         "capital": {
@@ -1896,8 +1896,8 @@ export const countryData = {
         "latitude": -21.136,
         "longitude": -175.216,
         "flag": "https://assets.kak.im/assets/original/tonga.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/tonga.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/tonga.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/tonga.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/tonga.png"
     },
     "New Zealand": {
         "capital": {
@@ -1915,8 +1915,8 @@ export const countryData = {
         "latitude": -41.2865,
         "longitude": 174.776,
         "flag": "https://assets.kak.im/assets/original/new-zealand.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/new-zealand.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/new-zealand.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/new-zealand.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/new-zealand.png"
     },
     "Comoros": {
         "capital": {
@@ -1934,8 +1934,8 @@ export const countryData = {
         "latitude": -11.6986,
         "longitude": 43.2418,
         "flag": "https://assets.kak.im/assets/original/comoros.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/comoros.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/comoros.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/comoros.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/comoros.png"
     },
     "Mauritania": {
         "capital": {
@@ -1953,8 +1953,8 @@ export const countryData = {
         "latitude": 18.2367,
         "longitude": -15.9824,
         "flag": "https://assets.kak.im/assets/original/mauritania.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/mauritania.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/mauritania.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/mauritania.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/mauritania.png"
     },
     "Venezuela": {
         "capital": {
@@ -1972,8 +1972,8 @@ export const countryData = {
         "latitude": 9.08165,
         "longitude": -69.8371,
         "flag": "https://assets.kak.im/assets/original/venezuela.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/venezuela.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/venezuela.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/venezuela.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/venezuela.png"
     },
     "Taiwan": {
         "capital": {
@@ -1991,8 +1991,8 @@ export const countryData = {
         "latitude": 23.698,
         "longitude": 120.961,
         "flag": "https://assets.kak.im/assets/original/taiwan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/taiwan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/taiwan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/taiwan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/taiwan.png"
     },
     "Paraguay": {
         "capital": {
@@ -2010,8 +2010,8 @@ export const countryData = {
         "latitude": -25.3005,
         "longitude": -57.6362,
         "flag": "https://assets.kak.im/assets/original/paraguay.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/paraguay.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/paraguay.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/paraguay.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/paraguay.png"
     },
     "Zambia": {
         "capital": {
@@ -2029,8 +2029,8 @@ export const countryData = {
         "latitude": -15.3982,
         "longitude": 28.2937,
         "flag": "https://assets.kak.im/assets/original/zambia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/zambia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/zambia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/zambia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/zambia.png"
     },
     "Palestine": {
         "capital": {
@@ -2048,8 +2048,8 @@ export const countryData = {
         "latitude": 31.952,
         "longitude": 35.233,
         "flag": "https://assets.kak.im/assets/original/palestine.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/palestine.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/palestine.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/palestine.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/palestine.png"
     },
     "Saudi Arabia": {
         "capital": {
@@ -2067,8 +2067,8 @@ export const countryData = {
         "latitude": 24.6748,
         "longitude": 46.6977,
         "flag": "https://assets.kak.im/assets/original/saudi-arabia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/saudi-arabia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/saudi-arabia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/saudi-arabia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/saudi-arabia.png"
     },
     "French Guiana": {
         "capital": {
@@ -2086,8 +2086,8 @@ export const countryData = {
         "latitude": 3.934,
         "longitude": -53.126,
         "flag": "https://assets.kak.im/assets/original/french-guiana.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/french-guiana.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/french-guiana.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/french-guiana.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/french-guiana.png"
     },
     "Jordan": {
         "capital": {
@@ -2105,8 +2105,8 @@ export const countryData = {
         "latitude": 31.9497,
         "longitude": 35.9263,
         "flag": "https://assets.kak.im/assets/original/jordan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/jordan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/jordan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/jordan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/jordan.png"
     },
     "Dominica": {
         "capital": {
@@ -2124,8 +2124,8 @@ export const countryData = {
         "latitude": 15.2976,
         "longitude": -61.39,
         "flag": "https://assets.kak.im/assets/original/dominica.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/dominica.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/dominica.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/dominica.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/dominica.png"
     },
     "Mexico": {
         "capital": {
@@ -2143,8 +2143,8 @@ export const countryData = {
         "latitude": 19.427,
         "longitude": -99.1276,
         "flag": "https://assets.kak.im/assets/original/mexico.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/mexico.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/mexico.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/mexico.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/mexico.png"
     },
     "Armenia": {
         "capital": {
@@ -2162,8 +2162,8 @@ export const countryData = {
         "latitude": 40.1596,
         "longitude": 44.509,
         "flag": "https://assets.kak.im/assets/original/armenia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/armenia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/armenia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/armenia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/armenia.png"
     },
     "Burundi": {
         "capital": {
@@ -2181,8 +2181,8 @@ export const countryData = {
         "latitude": -3.3784,
         "longitude": 29.3639,
         "flag": "https://assets.kak.im/assets/original/burundi.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/burundi.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/burundi.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/burundi.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/burundi.png"
     },
     "Germany": {
         "capital": {
@@ -2200,8 +2200,8 @@ export const countryData = {
         "latitude": 52.5235,
         "longitude": 13.4115,
         "flag": "https://assets.kak.im/assets/original/germany.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/germany.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/germany.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/germany.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/germany.png"
     },
     "Grenada": {
         "capital": {
@@ -2219,8 +2219,8 @@ export const countryData = {
         "latitude": 12.0653,
         "longitude": -61.7449,
         "flag": "https://assets.kak.im/assets/original/grenada.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/grenada.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/grenada.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/grenada.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/grenada.png"
     },
     "Cameroon": {
         "capital": {
@@ -2238,8 +2238,8 @@ export const countryData = {
         "latitude": 3.8721,
         "longitude": 11.5174,
         "flag": "https://assets.kak.im/assets/original/cameroon.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/cameroon.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/cameroon.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/cameroon.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/cameroon.png"
     },
     "Guam": {
         "capital": {
@@ -2257,8 +2257,8 @@ export const countryData = {
         "latitude": 13.4443,
         "longitude": 144.794,
         "flag": "https://assets.kak.im/assets/original/guam.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/guam.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/guam.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/guam.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/guam.png"
     },
     "Federated States of Micronesia": {
         "capital": {
@@ -2276,8 +2276,8 @@ export const countryData = {
         "latitude": 6.887,
         "longitude": 158.215,
         "flag": "https://assets.kak.im/assets/original/federated-states-of-micronesia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/federated-states-of-micronesia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/federated-states-of-micronesia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/federated-states-of-micronesia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/federated-states-of-micronesia.png"
     },
     "Algeria": {
         "capital": {
@@ -2295,8 +2295,8 @@ export const countryData = {
         "latitude": 36.7397,
         "longitude": 3.05097,
         "flag": "https://assets.kak.im/assets/original/algeria.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/algeria.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/algeria.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/algeria.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/algeria.png"
     },
     "Saint Lucia": {
         "capital": {
@@ -2314,8 +2314,8 @@ export const countryData = {
         "latitude": 14,
         "longitude": -60.9832,
         "flag": "https://assets.kak.im/assets/original/saint-lucia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/saint-lucia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/saint-lucia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/saint-lucia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/saint-lucia.png"
     },
     "Cayman Islands": {
         "capital": {
@@ -2333,8 +2333,8 @@ export const countryData = {
         "latitude": 19.3022,
         "longitude": -81.3857,
         "flag": "https://assets.kak.im/assets/original/cayman-islands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/cayman-islands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/cayman-islands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/cayman-islands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/cayman-islands.png"
     },
     "Solomon Islands": {
         "capital": {
@@ -2352,8 +2352,8 @@ export const countryData = {
         "latitude": -9.42676,
         "longitude": 159.949,
         "flag": "https://assets.kak.im/assets/original/solomon-islands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/solomon-islands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/solomon-islands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/solomon-islands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/solomon-islands.png"
     },
     "Laos": {
         "capital": {
@@ -2371,8 +2371,8 @@ export const countryData = {
         "latitude": 18.5826,
         "longitude": 102.177,
         "flag": "https://assets.kak.im/assets/original/laos.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/laos.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/laos.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/laos.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/laos.png"
     },
     "Sint Maarten": {
         "capital": {
@@ -2390,8 +2390,8 @@ export const countryData = {
         "latitude": 18.034,
         "longitude": -63.073,
         "flag": "https://assets.kak.im/assets/original/sint-maarten.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/sint-maarten.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/sint-maarten.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/sint-maarten.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/sint-maarten.png"
     },
     "Philippines": {
         "capital": {
@@ -2409,8 +2409,8 @@ export const countryData = {
         "latitude": 14.5515,
         "longitude": 121.035,
         "flag": "https://assets.kak.im/assets/original/philippines.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/philippines.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/philippines.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/philippines.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/philippines.png"
     },
     "Monaco": {
         "capital": {
@@ -2428,8 +2428,8 @@ export const countryData = {
         "latitude": 43.7325,
         "longitude": 7.41891,
         "flag": "https://assets.kak.im/assets/original/monaco.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/monaco.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/monaco.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/monaco.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/monaco.png"
     },
     "Liberia": {
         "capital": {
@@ -2447,8 +2447,8 @@ export const countryData = {
         "latitude": 6.30039,
         "longitude": -10.7957,
         "flag": "https://assets.kak.im/assets/original/liberia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/liberia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/liberia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/liberia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/liberia.png"
     },
     "Cyprus": {
         "capital": {
@@ -2466,8 +2466,8 @@ export const countryData = {
         "latitude": 35.1676,
         "longitude": 33.3736,
         "flag": "https://assets.kak.im/assets/original/cyprus.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/cyprus.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/cyprus.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/cyprus.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/cyprus.png"
     },
     "Hungary": {
         "capital": {
@@ -2485,8 +2485,8 @@ export const countryData = {
         "latitude": 47.4984,
         "longitude": 19.0408,
         "flag": "https://assets.kak.im/assets/original/hungary.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/hungary.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/hungary.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/hungary.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/hungary.png"
     },
     "Lesotho": {
         "capital": {
@@ -2504,8 +2504,8 @@ export const countryData = {
         "latitude": -29.5208,
         "longitude": 27.7167,
         "flag": "https://assets.kak.im/assets/original/lesotho.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/lesotho.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/lesotho.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/lesotho.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/lesotho.png"
     },
     "Pakistan": {
         "capital": {
@@ -2523,8 +2523,8 @@ export const countryData = {
         "latitude": 30.5167,
         "longitude": 72.8,
         "flag": "https://assets.kak.im/assets/original/pakistan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/pakistan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/pakistan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/pakistan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/pakistan.png"
     },
     "Costa Rica": {
         "capital": {
@@ -2542,8 +2542,8 @@ export const countryData = {
         "latitude": 9.63701,
         "longitude": -84.0089,
         "flag": "https://assets.kak.im/assets/original/costa-rica.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/costa-rica.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/costa-rica.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/costa-rica.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/costa-rica.png"
     },
     "Gibraltar": {
         "capital": {
@@ -2561,8 +2561,8 @@ export const countryData = {
         "latitude": 36.1447,
         "longitude": -5.3526,
         "flag": "https://assets.kak.im/assets/original/gibraltar.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/gibraltar.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/gibraltar.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/gibraltar.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/gibraltar.png"
     },
     "Bhutan": {
         "capital": {
@@ -2580,8 +2580,8 @@ export const countryData = {
         "latitude": 27.5768,
         "longitude": 89.6177,
         "flag": "https://assets.kak.im/assets/original/bhutan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/bhutan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/bhutan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/bhutan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/bhutan.png"
     },
     "El Salvador": {
         "capital": {
@@ -2599,8 +2599,8 @@ export const countryData = {
         "latitude": 13.7034,
         "longitude": -89.2073,
         "flag": "https://assets.kak.im/assets/original/el-salvador.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/el-salvador.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/el-salvador.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/el-salvador.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/el-salvador.png"
     },
     "Hong Kong": {
         "capital": {
@@ -2618,8 +2618,8 @@ export const countryData = {
         "latitude": 22.396,
         "longitude": 114.109,
         "flag": "https://assets.kak.im/assets/original/hong-kong.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/hong-kong.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/hong-kong.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/hong-kong.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/hong-kong.png"
     },
     "Estonia": {
         "capital": {
@@ -2637,8 +2637,8 @@ export const countryData = {
         "latitude": 59.4392,
         "longitude": 24.7586,
         "flag": "https://assets.kak.im/assets/original/estonia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/estonia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/estonia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/estonia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/estonia.png"
     },
     "Botswana": {
         "capital": {
@@ -2656,8 +2656,8 @@ export const countryData = {
         "latitude": -24.6544,
         "longitude": 25.9201,
         "flag": "https://assets.kak.im/assets/original/botswana.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/botswana.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/botswana.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/botswana.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/botswana.png"
     },
     "Saint Vincent and the Grenadines": {
         "capital": {
@@ -2675,8 +2675,8 @@ export const countryData = {
         "latitude": 13.2035,
         "longitude": -61.2653,
         "flag": "https://assets.kak.im/assets/original/saint-vincent-and-the-grenadines.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/saint-vincent-and-the-grenadines.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/saint-vincent-and-the-grenadines.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/saint-vincent-and-the-grenadines.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/saint-vincent-and-the-grenadines.png"
     },
     "Burkina Faso": {
         "capital": {
@@ -2694,8 +2694,8 @@ export const countryData = {
         "latitude": 12.3605,
         "longitude": -1.53395,
         "flag": "https://assets.kak.im/assets/original/burkina-faso.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/burkina-faso.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/burkina-faso.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/burkina-faso.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/burkina-faso.png"
     },
     "Serbia": {
         "capital": {
@@ -2713,8 +2713,8 @@ export const countryData = {
         "latitude": 44.8024,
         "longitude": 20.4656,
         "flag": "https://assets.kak.im/assets/original/serbia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/serbia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/serbia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/serbia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/serbia.png"
     },
     "Latvia": {
         "capital": {
@@ -2732,8 +2732,8 @@ export const countryData = {
         "latitude": 56.9465,
         "longitude": 24.1048,
         "flag": "https://assets.kak.im/assets/original/latvia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/latvia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/latvia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/latvia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/latvia.png"
     },
     "Barbados": {
         "capital": {
@@ -2751,8 +2751,8 @@ export const countryData = {
         "latitude": 13.0935,
         "longitude": -59.6105,
         "flag": "https://assets.kak.im/assets/original/barbados.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/barbados.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/barbados.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/barbados.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/barbados.png"
     },
     "Guatemala": {
         "capital": {
@@ -2770,8 +2770,8 @@ export const countryData = {
         "latitude": 14.6248,
         "longitude": -90.5328,
         "flag": "https://assets.kak.im/assets/original/guatemala.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/guatemala.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/guatemala.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/guatemala.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/guatemala.png"
     },
     "Guinea-Bissau": {
         "capital": {
@@ -2789,8 +2789,8 @@ export const countryData = {
         "latitude": 11.8037,
         "longitude": -15.1804,
         "flag": "https://assets.kak.im/assets/original/guinea-bissau.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/guinea-bissau.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/guinea-bissau.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/guinea-bissau.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/guinea-bissau.png"
     },
     "Marshall Islands": {
         "capital": {
@@ -2808,8 +2808,8 @@ export const countryData = {
         "latitude": 7.11046,
         "longitude": 171.135,
         "flag": "https://assets.kak.im/assets/original/marshall-islands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/marshall-islands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/marshall-islands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/marshall-islands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/marshall-islands.png"
     },
     "Sweden": {
         "capital": {
@@ -2827,8 +2827,8 @@ export const countryData = {
         "latitude": 59.3327,
         "longitude": 18.0645,
         "flag": "https://assets.kak.im/assets/original/sweden.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/sweden.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/sweden.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/sweden.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/sweden.png"
     },
     "Canada": {
         "capital": {
@@ -2846,8 +2846,8 @@ export const countryData = {
         "latitude": 45.4215,
         "longitude": -75.6919,
         "flag": "https://assets.kak.im/assets/original/canada.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/canada.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/canada.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/canada.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/canada.png"
     },
     "Libya": {
         "capital": {
@@ -2865,8 +2865,8 @@ export const countryData = {
         "latitude": 32.8578,
         "longitude": 13.1072,
         "flag": "https://assets.kak.im/assets/original/libya.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/libya.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/libya.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/libya.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/libya.png"
     },
     "Malta": {
         "capital": {
@@ -2884,8 +2884,8 @@ export const countryData = {
         "latitude": 35.9042,
         "longitude": 14.5189,
         "flag": "https://assets.kak.im/assets/original/malta.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/malta.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/malta.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/malta.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/malta.png"
     },
     "Indonesia": {
         "capital": {
@@ -2903,8 +2903,8 @@ export const countryData = {
         "latitude": -6.19752,
         "longitude": 106.83,
         "flag": "https://assets.kak.im/assets/original/indonesia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/indonesia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/indonesia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/indonesia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/indonesia.png"
     },
     "Russia": {
         "capital": {
@@ -2922,8 +2922,8 @@ export const countryData = {
         "latitude": 55.7558,
         "longitude": 37.6176,
         "flag": "https://assets.kak.im/assets/original/russia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/russia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/russia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/russia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/russia.png"
     },
     "Cote d'Ivoire": {
         "capital": {
@@ -2941,8 +2941,8 @@ export const countryData = {
         "latitude": 5.332,
         "longitude": -4.0305,
         "flag": "https://assets.kak.im/assets/original/cote-d'ivoire.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/cote-d'ivoire.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/cote-d'ivoire.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/cote-d'ivoire.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/cote-d'ivoire.png"
     },
     "Moldova": {
         "capital": {
@@ -2960,8 +2960,8 @@ export const countryData = {
         "latitude": 47.0167,
         "longitude": 28.8497,
         "flag": "https://assets.kak.im/assets/original/moldova.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/moldova.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/moldova.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/moldova.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/moldova.png"
     },
     "Malaysia": {
         "capital": {
@@ -2979,8 +2979,8 @@ export const countryData = {
         "latitude": 3.12433,
         "longitude": 101.684,
         "flag": "https://assets.kak.im/assets/original/malaysia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/malaysia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/malaysia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/malaysia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/malaysia.png"
     },
     "Kazakhstan": {
         "capital": {
@@ -2998,8 +2998,8 @@ export const countryData = {
         "latitude": 51.1879,
         "longitude": 71.4382,
         "flag": "https://assets.kak.im/assets/original/kazakhstan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/kazakhstan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/kazakhstan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/kazakhstan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/kazakhstan.png"
     },
     "Andorra": {
         "capital": {
@@ -3017,8 +3017,8 @@ export const countryData = {
         "latitude": 42.5075,
         "longitude": 1.5218,
         "flag": "https://assets.kak.im/assets/original/andorra.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/andorra.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/andorra.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/andorra.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/andorra.png"
     },
     "Togo": {
         "capital": {
@@ -3036,8 +3036,8 @@ export const countryData = {
         "latitude": 6.1228,
         "longitude": 1.2255,
         "flag": "https://assets.kak.im/assets/original/togo.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/togo.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/togo.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/togo.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/togo.png"
     },
     "French Polynesia": {
         "capital": {
@@ -3055,8 +3055,8 @@ export const countryData = {
         "latitude": -17.535,
         "longitude": -149.57,
         "flag": "https://assets.kak.im/assets/original/french-polynesia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/french-polynesia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/french-polynesia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/french-polynesia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/french-polynesia.png"
     },
     "Finland": {
         "capital": {
@@ -3074,8 +3074,8 @@ export const countryData = {
         "latitude": 60.1608,
         "longitude": 24.9525,
         "flag": "https://assets.kak.im/assets/original/finland.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/finland.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/finland.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/finland.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/finland.png"
     },
     "Turkey": {
         "capital": {
@@ -3093,8 +3093,8 @@ export const countryData = {
         "latitude": 38.964,
         "longitude": 35.243,
         "flag": "https://assets.kak.im/assets/original/turkey.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/turkey.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/turkey.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/turkey.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/turkey.png"
     },
     "Tanzania": {
         "capital": {
@@ -3112,8 +3112,8 @@ export const countryData = {
         "latitude": -6.17486,
         "longitude": 35.7382,
         "flag": "https://assets.kak.im/assets/original/tanzania.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/tanzania.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/tanzania.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/tanzania.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/tanzania.png"
     },
     "Guinea": {
         "capital": {
@@ -3131,8 +3131,8 @@ export const countryData = {
         "latitude": 9.51667,
         "longitude": -13.7,
         "flag": "https://assets.kak.im/assets/original/guinea.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/guinea.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/guinea.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/guinea.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/guinea.png"
     },
     "United States": {
         "capital": {
@@ -3150,8 +3150,8 @@ export const countryData = {
         "latitude": 38.8895,
         "longitude": -77.032,
         "flag": "https://assets.kak.im/assets/original/united-states.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/united-states.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/united-states.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/united-states.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/united-states.png"
     },
     "Brunei Darussalam": {
         "capital": {
@@ -3169,8 +3169,8 @@ export const countryData = {
         "latitude": 4.94199,
         "longitude": 114.946,
         "flag": "https://assets.kak.im/assets/original/brunei-darussalam.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/brunei-darussalam.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/brunei-darussalam.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/brunei-darussalam.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/brunei-darussalam.png"
     },
     "Myanmar": {
         "capital": {
@@ -3188,8 +3188,8 @@ export const countryData = {
         "latitude": 21.914,
         "longitude": 95.9562,
         "flag": "https://assets.kak.im/assets/original/myanmar.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/myanmar.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/myanmar.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/myanmar.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/myanmar.png"
     },
     "Tokelau": {
         "capital": {
@@ -3207,8 +3207,8 @@ export const countryData = {
         "latitude": -9.2,
         "longitude": -171.848,
         "flag": "https://assets.kak.im/assets/original/tokelau.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/tokelau.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/tokelau.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/tokelau.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/tokelau.png"
     },
     "Belarus": {
         "capital": {
@@ -3226,8 +3226,8 @@ export const countryData = {
         "latitude": 53.9678,
         "longitude": 27.5766,
         "flag": "https://assets.kak.im/assets/original/belarus.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/belarus.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/belarus.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/belarus.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/belarus.png"
     },
     "Tajikistan": {
         "capital": {
@@ -3245,8 +3245,8 @@ export const countryData = {
         "latitude": 38.5878,
         "longitude": 68.7864,
         "flag": "https://assets.kak.im/assets/original/tajikistan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/tajikistan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/tajikistan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/tajikistan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/tajikistan.png"
     },
     "Peru": {
         "capital": {
@@ -3264,8 +3264,8 @@ export const countryData = {
         "latitude": -12.0931,
         "longitude": -77.0465,
         "flag": "https://assets.kak.im/assets/original/peru.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/peru.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/peru.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/peru.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/peru.png"
     },
     "Sri Lanka": {
         "capital": {
@@ -3283,8 +3283,8 @@ export const countryData = {
         "latitude": 6.92148,
         "longitude": 79.8528,
         "flag": "https://assets.kak.im/assets/original/sri-lanka.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/sri-lanka.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/sri-lanka.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/sri-lanka.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/sri-lanka.png"
     },
     "Equatorial Guinea": {
         "capital": {
@@ -3302,8 +3302,8 @@ export const countryData = {
         "latitude": 3.7523,
         "longitude": 8.7741,
         "flag": "https://assets.kak.im/assets/original/equatorial-guinea.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/equatorial-guinea.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/equatorial-guinea.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/equatorial-guinea.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/equatorial-guinea.png"
     },
     "Israel": {
         "capital": {
@@ -3321,8 +3321,8 @@ export const countryData = {
         "latitude": 31.769,
         "longitude": 35.2163,
         "flag": "https://assets.kak.im/assets/original/israel.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/israel.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/israel.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/israel.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/israel.png"
     },
     "Panama": {
         "capital": {
@@ -3340,8 +3340,8 @@ export const countryData = {
         "latitude": 8.99427,
         "longitude": -79.5188,
         "flag": "https://assets.kak.im/assets/original/panama.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/panama.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/panama.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/panama.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/panama.png"
     },
     "Italy": {
         "capital": {
@@ -3359,8 +3359,8 @@ export const countryData = {
         "latitude": 41.8955,
         "longitude": 12.4823,
         "flag": "https://assets.kak.im/assets/original/italy.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/italy.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/italy.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/italy.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/italy.png"
     },
     "Croatia": {
         "capital": {
@@ -3378,8 +3378,8 @@ export const countryData = {
         "latitude": 45.8069,
         "longitude": 15.9614,
         "flag": "https://assets.kak.im/assets/original/croatia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/croatia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/croatia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/croatia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/croatia.png"
     },
     "Sudan": {
         "capital": {
@@ -3397,8 +3397,8 @@ export const countryData = {
         "latitude": 15.5932,
         "longitude": 32.5363,
         "flag": "https://assets.kak.im/assets/original/sudan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/sudan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/sudan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/sudan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/sudan.png"
     },
     "Morocco": {
         "capital": {
@@ -3416,8 +3416,8 @@ export const countryData = {
         "latitude": 33.9905,
         "longitude": -6.8704,
         "flag": "https://assets.kak.im/assets/original/morocco.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/morocco.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/morocco.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/morocco.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/morocco.png"
     },
     "Djibouti": {
         "capital": {
@@ -3435,8 +3435,8 @@ export const countryData = {
         "latitude": 11.5806,
         "longitude": 43.1425,
         "flag": "https://assets.kak.im/assets/original/djibouti.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/djibouti.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/djibouti.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/djibouti.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/djibouti.png"
     },
     "Albania": {
         "capital": {
@@ -3454,8 +3454,8 @@ export const countryData = {
         "latitude": 41.3317,
         "longitude": 19.8172,
         "flag": "https://assets.kak.im/assets/original/albania.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/albania.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/albania.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/albania.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/albania.png"
     },
     "Bahrain": {
         "capital": {
@@ -3473,8 +3473,8 @@ export const countryData = {
         "latitude": 26.1921,
         "longitude": 50.5354,
         "flag": "https://assets.kak.im/assets/original/bahrain.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/bahrain.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/bahrain.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/bahrain.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/bahrain.png"
     },
     "Niger": {
         "capital": {
@@ -3492,8 +3492,8 @@ export const countryData = {
         "latitude": 13.514,
         "longitude": 2.1073,
         "flag": "https://assets.kak.im/assets/original/niger.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/niger.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/niger.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/niger.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/niger.png"
     },
     "Georgia": {
         "capital": {
@@ -3511,8 +3511,8 @@ export const countryData = {
         "latitude": 41.71,
         "longitude": 44.793,
         "flag": "https://assets.kak.im/assets/original/georgia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/georgia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/georgia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/georgia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/georgia.png"
     },
     "Greece": {
         "capital": {
@@ -3530,8 +3530,8 @@ export const countryData = {
         "latitude": 37.9792,
         "longitude": 23.7166,
         "flag": "https://assets.kak.im/assets/original/greece.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/greece.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/greece.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/greece.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/greece.png"
     },
     "Portugal": {
         "capital": {
@@ -3549,8 +3549,8 @@ export const countryData = {
         "latitude": 38.7072,
         "longitude": -9.13552,
         "flag": "https://assets.kak.im/assets/original/portugal.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/portugal.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/portugal.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/portugal.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/portugal.png"
     },
     "Turkmenistan": {
         "capital": {
@@ -3568,8 +3568,8 @@ export const countryData = {
         "latitude": 37.9509,
         "longitude": 58.3794,
         "flag": "https://assets.kak.im/assets/original/turkmenistan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/turkmenistan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/turkmenistan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/turkmenistan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/turkmenistan.png"
     },
     "Japan": {
         "capital": {
@@ -3587,8 +3587,8 @@ export const countryData = {
         "latitude": 35.67,
         "longitude": 139.77,
         "flag": "https://assets.kak.im/assets/original/japan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/japan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/japan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/japan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/japan.png"
     },
     "Tuvalu": {
         "capital": {
@@ -3606,8 +3606,8 @@ export const countryData = {
         "latitude": -8.6314877,
         "longitude": 179.089567,
         "flag": "https://assets.kak.im/assets/original/tuvalu.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/tuvalu.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/tuvalu.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/tuvalu.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/tuvalu.png"
     },
     "China": {
         "capital": {
@@ -3625,8 +3625,8 @@ export const countryData = {
         "latitude": 40.0495,
         "longitude": 116.286,
         "flag": "https://assets.kak.im/assets/original/china.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/china.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/china.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/china.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/china.png"
     },
     "Ghana": {
         "capital": {
@@ -3644,8 +3644,8 @@ export const countryData = {
         "latitude": 5.57045,
         "longitude": -0.20795,
         "flag": "https://assets.kak.im/assets/original/ghana.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/ghana.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/ghana.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/ghana.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/ghana.png"
     },
     "Madagascar": {
         "capital": {
@@ -3663,8 +3663,8 @@ export const countryData = {
         "latitude": -20.4667,
         "longitude": 45.7167,
         "flag": "https://assets.kak.im/assets/original/madagascar.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/madagascar.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/madagascar.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/madagascar.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/madagascar.png"
     },
     "Swaziland": {
         "capital": {
@@ -3682,8 +3682,8 @@ export const countryData = {
         "latitude": -26.523,
         "longitude": 31.466,
         "flag": "https://assets.kak.im/assets/original/swaziland.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/swaziland.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/swaziland.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/swaziland.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/swaziland.png"
     },
     "Bosnia and Herzegovina": {
         "capital": {
@@ -3701,8 +3701,8 @@ export const countryData = {
         "latitude": 43.8607,
         "longitude": 18.4214,
         "flag": "https://assets.kak.im/assets/original/bosnia-and-herzegovina.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/bosnia-and-herzegovina.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/bosnia-and-herzegovina.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/bosnia-and-herzegovina.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/bosnia-and-herzegovina.png"
     },
     "Northern Mariana Islands": {
         "capital": {
@@ -3720,8 +3720,8 @@ export const countryData = {
         "latitude": 15.1935,
         "longitude": 145.765,
         "flag": "https://assets.kak.im/assets/original/northern-mariana-islands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/northern-mariana-islands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/northern-mariana-islands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/northern-mariana-islands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/northern-mariana-islands.png"
     },
     "Mali": {
         "capital": {
@@ -3739,8 +3739,8 @@ export const countryData = {
         "latitude": 13.5667,
         "longitude": -7.50034,
         "flag": "https://assets.kak.im/assets/original/mali.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/mali.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/mali.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/mali.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/mali.png"
     },
     "Niue": {
         "capital": {
@@ -3758,8 +3758,8 @@ export const countryData = {
         "latitude": -19.054,
         "longitude": -169.867,
         "flag": "https://assets.kak.im/assets/original/niue.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/niue.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/niue.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/niue.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/niue.png"
     },
     "Seychelles": {
         "capital": {
@@ -3777,8 +3777,8 @@ export const countryData = {
         "latitude": -4.6309,
         "longitude": 55.4466,
         "flag": "https://assets.kak.im/assets/original/seychelles.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/seychelles.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/seychelles.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/seychelles.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/seychelles.png"
     },
     "Switzerland": {
         "capital": {
@@ -3796,8 +3796,8 @@ export const countryData = {
         "latitude": 46.948,
         "longitude": 7.44821,
         "flag": "https://assets.kak.im/assets/original/switzerland.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/switzerland.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/switzerland.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/switzerland.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/switzerland.png"
     },
     "Slovenia": {
         "capital": {
@@ -3815,8 +3815,8 @@ export const countryData = {
         "latitude": 46.0546,
         "longitude": 14.5044,
         "flag": "https://assets.kak.im/assets/original/slovenia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/slovenia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/slovenia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/slovenia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/slovenia.png"
     },
     "Oman": {
         "capital": {
@@ -3834,8 +3834,8 @@ export const countryData = {
         "latitude": 23.6105,
         "longitude": 58.5874,
         "flag": "https://assets.kak.im/assets/original/oman.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/oman.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/oman.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/oman.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/oman.png"
     },
     "Liechtenstein": {
         "capital": {
@@ -3853,8 +3853,8 @@ export const countryData = {
         "latitude": 47.1411,
         "longitude": 9.52148,
         "flag": "https://assets.kak.im/assets/original/liechtenstein.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/liechtenstein.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/liechtenstein.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/liechtenstein.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/liechtenstein.png"
     },
     "United Arab Emirates": {
         "capital": {
@@ -3872,8 +3872,8 @@ export const countryData = {
         "latitude": 24.4764,
         "longitude": 54.3705,
         "flag": "https://assets.kak.im/assets/original/united-arab-emirates.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/united-arab-emirates.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/united-arab-emirates.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/united-arab-emirates.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/united-arab-emirates.png"
     },
     "Iraq": {
         "capital": {
@@ -3891,8 +3891,8 @@ export const countryData = {
         "latitude": 33.3302,
         "longitude": 44.394,
         "flag": "https://assets.kak.im/assets/original/iraq.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/iraq.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/iraq.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/iraq.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/iraq.png"
     },
     "Kiribati": {
         "capital": {
@@ -3910,8 +3910,8 @@ export const countryData = {
         "latitude": 1.32905,
         "longitude": 172.979,
         "flag": "https://assets.kak.im/assets/original/kiribati.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/kiribati.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/kiribati.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/kiribati.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/kiribati.png"
     },
     "Poland": {
         "capital": {
@@ -3929,8 +3929,8 @@ export const countryData = {
         "latitude": 52.26,
         "longitude": 21.02,
         "flag": "https://assets.kak.im/assets/original/poland.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/poland.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/poland.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/poland.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/poland.png"
     },
     "Bermuda": {
         "capital": {
@@ -3948,8 +3948,8 @@ export const countryData = {
         "latitude": 32.3293,
         "longitude": -64.706,
         "flag": "https://assets.kak.im/assets/original/bermuda.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/bermuda.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/bermuda.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/bermuda.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/bermuda.png"
     },
     "South Africa": {
         "capital": {
@@ -3967,8 +3967,8 @@ export const countryData = {
         "latitude": -25.746,
         "longitude": 28.1871,
         "flag": "https://assets.kak.im/assets/original/south-africa.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/south-africa.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/south-africa.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/south-africa.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/south-africa.png"
     },
     "Papua New Guinea": {
         "capital": {
@@ -3986,8 +3986,8 @@ export const countryData = {
         "latitude": -9.47357,
         "longitude": 147.194,
         "flag": "https://assets.kak.im/assets/original/papua-new-guinea.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/papua-new-guinea.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/papua-new-guinea.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/papua-new-guinea.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/papua-new-guinea.png"
     },
     "Norway": {
         "capital": {
@@ -4005,8 +4005,8 @@ export const countryData = {
         "latitude": 59.9138,
         "longitude": 10.7387,
         "flag": "https://assets.kak.im/assets/original/norway.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/norway.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/norway.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/norway.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/norway.png"
     },
     "Wallis and Futuna": {
         "capital": {
@@ -4024,8 +4024,8 @@ export const countryData = {
         "latitude": -13.768,
         "longitude": -177.157,
         "flag": "https://assets.kak.im/assets/original/wallis-and-futuna.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/wallis-and-futuna.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/wallis-and-futuna.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/wallis-and-futuna.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/wallis-and-futuna.png"
     },
     "Trinidad and Tobago": {
         "capital": {
@@ -4043,8 +4043,8 @@ export const countryData = {
         "latitude": 10.6596,
         "longitude": -61.4789,
         "flag": "https://assets.kak.im/assets/original/trinidad-and-tobago.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/trinidad-and-tobago.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/trinidad-and-tobago.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/trinidad-and-tobago.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/trinidad-and-tobago.png"
     },
     "Central African Republic": {
         "capital": {
@@ -4062,8 +4062,8 @@ export const countryData = {
         "latitude": 5.63056,
         "longitude": 21.6407,
         "flag": "https://assets.kak.im/assets/original/central-african-republic.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/central-african-republic.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/central-african-republic.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/central-african-republic.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/central-african-republic.png"
     },
     "Lithuania": {
         "capital": {
@@ -4081,8 +4081,8 @@ export const countryData = {
         "latitude": 54.6896,
         "longitude": 25.2799,
         "flag": "https://assets.kak.im/assets/original/lithuania.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/lithuania.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/lithuania.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/lithuania.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/lithuania.png"
     },
     "Czechia": {
         "capital": {
@@ -4100,8 +4100,8 @@ export const countryData = {
         "latitude": 50.0878,
         "longitude": 14.4205,
         "flag": "https://assets.kak.im/assets/original/czechia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/czechia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/czechia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/czechia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/czechia.png"
     },
     "Afghanistan": {
         "capital": {
@@ -4119,8 +4119,8 @@ export const countryData = {
         "latitude": 34.5228,
         "longitude": 69.1761,
         "flag": "https://assets.kak.im/assets/original/afghanistan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/afghanistan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/afghanistan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/afghanistan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/afghanistan.png"
     },
     "Azerbaijan": {
         "capital": {
@@ -4138,8 +4138,8 @@ export const countryData = {
         "latitude": 40.3834,
         "longitude": 49.8932,
         "flag": "https://assets.kak.im/assets/original/azerbaijan.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/azerbaijan.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/azerbaijan.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/azerbaijan.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/azerbaijan.png"
     },
     "Montenegro": {
         "capital": {
@@ -4157,8 +4157,8 @@ export const countryData = {
         "latitude": 42.4602,
         "longitude": 19.2595,
         "flag": "https://assets.kak.im/assets/original/montenegro.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/montenegro.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/montenegro.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/montenegro.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/montenegro.png"
     },
     "Falkland Islands": {
         "capital": {
@@ -4176,8 +4176,8 @@ export const countryData = {
         "latitude": -51.796,
         "longitude": -59.524,
         "flag": "https://assets.kak.im/assets/original/falkland-islands.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/falkland-islands.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/falkland-islands.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/falkland-islands.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/falkland-islands.png"
     },
     "Timor-Leste": {
         "capital": {
@@ -4195,8 +4195,8 @@ export const countryData = {
         "latitude": -8.56667,
         "longitude": 125.567,
         "flag": "https://assets.kak.im/assets/original/timor-leste.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/timor-leste.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/timor-leste.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/timor-leste.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/timor-leste.png"
     },
     "Yemen": {
         "capital": {
@@ -4214,8 +4214,8 @@ export const countryData = {
         "latitude": 15.352,
         "longitude": 44.2075,
         "flag": "https://assets.kak.im/assets/original/yemen.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/yemen.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/yemen.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/yemen.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/yemen.png"
     },
     "India": {
         "capital": {
@@ -4233,8 +4233,8 @@ export const countryData = {
         "latitude": 28.6353,
         "longitude": 77.225,
         "flag": "https://assets.kak.im/assets/original/india.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/india.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/india.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/india.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/india.png"
     },
     "Bangladesh": {
         "capital": {
@@ -4252,8 +4252,8 @@ export const countryData = {
         "latitude": 23.7055,
         "longitude": 90.4113,
         "flag": "https://assets.kak.im/assets/original/bangladesh.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/bangladesh.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/bangladesh.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/bangladesh.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/bangladesh.png"
     },
     "Eritrea": {
         "capital": {
@@ -4271,8 +4271,8 @@ export const countryData = {
         "latitude": 15.3315,
         "longitude": 38.9183,
         "flag": "https://assets.kak.im/assets/original/eritrea.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/eritrea.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/eritrea.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/eritrea.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/eritrea.png"
     },
     "Macedonia": {
         "capital": {
@@ -4290,8 +4290,8 @@ export const countryData = {
         "latitude": 41.513,
         "longitude": 21.745,
         "flag": "https://assets.kak.im/assets/original/macedonia.png",
-        "grayscaleFlag": "https://assets.kak.im/assets/grayscale/macedonia.png",
-        "invertedFlag": "https://assets.kak.im/assets/invertedle/macedonia.png"
+        "grayscale": "https://assets.kak.im/assets/grayscale/macedonia.png",
+        "invertedle": "https://assets.kak.im/assets/invertedle/macedonia.png"
     },
     "Catalunya": {
         "capital": {
