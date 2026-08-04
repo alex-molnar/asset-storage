@@ -1,4 +1,4 @@
-import { capitalize } from "./stringHelpers.js"
+import { capitalize } from "./stringUtils.js"
 
 let selectedSuggestionIndex = -1
 let alreadyGuessed = []
