@@ -90,7 +90,6 @@ export function getItemForToday(site, item) {
     if (localStorage.getItem(`${site}-${currentDate}`) != null) {
         return JSON.parse(localStorage.getItem(`${site}-${currentDate}`))
     } else {
-        localStorage.clear() // TODO keep stats
         localStorage.setItem(`${site}-${currentDate}`, JSON.stringify(item))
         return item
     }
