@@ -5,7 +5,6 @@ let alreadyGuessed = []
 const currentDate = new Date().toISOString().split("T")[0];
 
 let emptyStats = {
-    games_startet: 0,
     games_with_attempts_1: 0,
     games_with_attempts_2: 0,
     games_with_attempts_3: 0,
