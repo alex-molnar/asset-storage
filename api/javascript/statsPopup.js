@@ -134,6 +134,102 @@ function buildStatsElement(tagName, className, text = "") {
     return el
 }
 
+function getStatsSummary(stats, order) {
+    const values = order.map(key => stats[key])
+    const totalGames = values.reduce((sum, value) => sum + value, 0)
+    const failedGames = stats.games_failed
+    const wins = Math.max(totalGames - failedGames, 0)
+    const winRate = totalGames > 0 ? Math.round((wins / totalGames) * 100) : 0
+    const maxValue = Math.max(...values, 1)
+
+    return {
+        totalGames,
+        wins,
+        winRate,
+        maxValue
+    }
+}
+
+function getSuccessfulAttemptKeys(order) {
+    return order.filter(key => key !== "games_failed")
+}
+
+function inferSingleGameCompletionKey(stats, order) {
+    const successKeys = getSuccessfulAttemptKeys(order)
+    const completedInKeys = successKeys.filter(key => stats[key] > 0)
+    const completedCount = successKeys.reduce((sum, key) => sum + stats[key], 0)
+
+    if (completedCount === 1 && completedInKeys.length === 1) {
+        return completedInKeys[0]
+    }
+
+    return null
+}
+
+function getTopPercentageMessage(globalStats, completionKey, order, labels) {
+    if (!completionKey || completionKey === "games_failed") {
+        return "Global ranking is available after a completed game."
+    }
+
+    const totalPlayers = order.reduce((sum, key) => sum + globalStats[key], 0)
+    if (totalPlayers <= 0) {
+        return "Global ranking is not available yet."
+    }
+
+    const bucketCount = globalStats[completionKey] || 0
+    if (bucketCount <= 0) {
+        return `No global players completed in ${labels[completionKey] || completionKey} yet.`
+    }
+
+    const percent = Math.max(1, Math.round((bucketCount / totalPlayers) * 100))
+    return `You are in the top ${percent}% of players globally.`
+}
+
+function renderStatsView({ stats, order, labels, summaryElement, chartElement, summaryOverride }) {
+    const meta = getStatsSummary(stats, order)
+    summaryElement.textContent = summaryOverride || `Games: ${meta.totalGames} | Wins: ${meta.wins} | Win rate: ${meta.winRate}%`
+
+    chartElement.setAttribute("role", "list")
+    chartElement.innerHTML = ""
+
+    order.forEach(key => {
+        const value = stats[key]
+        const widthPercent = Math.round((value / meta.maxValue) * 100)
+
+        const row = buildStatsElement("div", "stats-chart-row")
+        row.setAttribute("role", "listitem")
+        row.dataset.key = key
+
+        const label = buildStatsElement("span", "stats-chart-label", labels[key] || key)
+        const barTrack = buildStatsElement("div", "stats-chart-track")
+        const barFill = buildStatsElement("div", "stats-chart-fill")
+        const valueLabel = buildStatsElement("span", "stats-chart-value", String(value))
+
+        barFill.style.width = `${widthPercent}%`
+        barFill.dataset.widthPercent = String(widthPercent)
+        barFill.setAttribute("aria-label", `${labels[key] || key}: ${value}`)
+
+        barTrack.appendChild(barFill)
+        row.append(label, barTrack, valueLabel)
+        chartElement.appendChild(row)
+    })
+
+    return meta
+}
+
+function getGlobalStats() { // TODO change this to fetch from a server or API in the future
+    return {
+        games_with_attempts_1: 0,
+        games_with_attempts_2: 2,
+        games_with_attempts_3: 1,
+        games_with_attempts_4: 8,
+        games_with_attempts_5: 9,
+        games_with_attempts_6: 10,
+        games_with_attempts_plus: 17,
+        games_failed: 12
+    }
+}
+
 export function createStatsPopup(statsInput, options = {}) {
     const fallbackStats = {
         games_with_attempts_1: 0,
@@ -157,20 +253,16 @@ export function createStatsPopup(statsInput, options = {}) {
     }
     const defaultStats = typeof emptyStats !== "undefined" ? emptyStats : fallbackStats
     const defaultLabels = typeof statsLabels !== "undefined" ? statsLabels : fallbackLabels
-    const stats = normalizeStats(statsInput || defaultStats)
+    const localStats = normalizeStats(statsInput || defaultStats)
+    const globalStats = normalizeStats(getGlobalStats())
     const labels = { ...defaultLabels, ...(options.labels || {}) }
     const title = options.title || "Your previous performance"
     const mountTarget = options.mountTarget || document.body
     const order = typeof statsBarOrder !== "undefined" && Array.isArray(statsBarOrder) && statsBarOrder.length > 0
         ? statsBarOrder
-        : Object.keys(stats)
-
-    const values = order.map(key => stats[key])
-    const totalGames = values.reduce((sum, value) => sum + value, 0)
-    const failedGames = stats.games_failed
-    const wins = Math.max(totalGames - failedGames, 0)
-    const winRate = totalGames > 0 ? Math.round((wins / totalGames) * 100) : 0
-    const maxValue = Math.max(...values, 1)
+        : Object.keys(localStats)
+    const inferredCompletionKey = inferSingleGameCompletionKey(localStats, order)
+    const playerCompletionKey = options.playerCompletionKey || inferredCompletionKey
 
     const hasProvidedElements = Boolean(options.overlay)
     const overlay = options.overlay || buildStatsElement("div", "stats-popup-overlay")
@@ -189,40 +281,82 @@ export function createStatsPopup(statsInput, options = {}) {
     heading.textContent = title
 
     const summary = options.summaryElement || buildStatsElement("p", "stats-popup-summary")
-    summary.textContent = `Games: ${totalGames} | Wins: ${wins} | Win rate: ${winRate}%`
 
     const chart = options.chart || buildStatsElement("div", "stats-chart")
-    chart.setAttribute("role", "list")
-    chart.innerHTML = ""
 
-    order.forEach(key => {
-        const value = stats[key]
-        const widthPercent = Math.round((value / maxValue) * 100)
+    const tabs = options.tabsElement || buildStatsElement("div", "stats-popup-tabs")
+    tabs.setAttribute("role", "tablist")
 
-        const row = buildStatsElement("div", "stats-chart-row")
-        row.setAttribute("role", "listitem")
-        row.dataset.key = key
+    const localTabButton = options.localTabButton || buildStatsElement("button", "stats-popup-tab", "My stats")
+    localTabButton.type = "button"
+    localTabButton.setAttribute("role", "tab")
+    localTabButton.dataset.tab = "local"
 
-        const label = buildStatsElement("span", "stats-chart-label", labels[key] || key)
-        const barTrack = buildStatsElement("div", "stats-chart-track")
-        const barFill = buildStatsElement("div", "stats-chart-fill")
-        const valueLabel = buildStatsElement("span", "stats-chart-value", String(value))
+    const globalTabButton = options.globalTabButton || buildStatsElement("button", "stats-popup-tab", "Global stats")
+    globalTabButton.type = "button"
+    globalTabButton.setAttribute("role", "tab")
+    globalTabButton.dataset.tab = "global"
 
-        barFill.style.width = `${widthPercent}%`
-        barFill.dataset.widthPercent = String(widthPercent)
-        barFill.setAttribute("aria-label", `${labels[key] || key}: ${value}`)
-
-        barTrack.appendChild(barFill)
-        row.append(label, barTrack, valueLabel)
-        chart.appendChild(row)
-    })
+    if (!localTabButton.isConnected) {
+        tabs.appendChild(localTabButton)
+    }
+    if (!globalTabButton.isConnected) {
+        tabs.appendChild(globalTabButton)
+    }
 
     if (!hasProvidedElements) {
         const header = buildStatsElement("div", "stats-popup-header")
         header.append(heading, closeButton)
-        popup.append(header, summary, chart)
+        popup.append(header, tabs, summary, chart)
         overlay.appendChild(popup)
+    } else if (!tabs.isConnected) {
+        const insertionPoint = popup.querySelector(".stats-popup-summary") || summary
+        popup.insertBefore(tabs, insertionPoint)
     }
+
+    let activeTab = "local"
+    let currentMeta = renderStatsView({
+        stats: localStats,
+        order,
+        labels,
+        summaryElement: summary,
+        chartElement: chart
+    })
+
+    function setActiveTab(tabName) {
+        const isLocal = tabName === "local"
+        activeTab = isLocal ? "local" : "global"
+
+        localTabButton.classList.toggle("is-active", isLocal)
+        globalTabButton.classList.toggle("is-active", !isLocal)
+        localTabButton.setAttribute("aria-selected", isLocal ? "true" : "false")
+        globalTabButton.setAttribute("aria-selected", !isLocal ? "true" : "false")
+
+        currentMeta = renderStatsView({
+            stats: isLocal ? localStats : globalStats,
+            order,
+            labels,
+            summaryElement: summary,
+            chartElement: chart,
+            summaryOverride: isLocal
+                ? null
+                : getTopPercentageMessage(globalStats, playerCompletionKey, order, labels)
+        })
+    }
+
+    function getActiveTab() {
+        return activeTab
+    }
+
+    function getCurrentSummary() {
+        return {
+            totalGames: currentMeta.totalGames,
+            wins: currentMeta.wins,
+            winRate: currentMeta.winRate
+        }
+    }
+
+    setActiveTab("local")
 
     function close() {
         overlay.hidden = true
@@ -251,6 +385,8 @@ export function createStatsPopup(statsInput, options = {}) {
     }
 
     closeButton.addEventListener("click", close)
+    localTabButton.addEventListener("click", () => setActiveTab("local"))
+    globalTabButton.addEventListener("click", () => setActiveTab("global"))
     overlay.addEventListener("click", (event) => {
         if (event.target === overlay) {
             close()
@@ -270,9 +406,13 @@ export function createStatsPopup(statsInput, options = {}) {
         overlay,
         popup,
         chart,
-        stats,
-        totalGames,
-        wins,
-        winRate
+        tabs,
+        getActiveTab,
+        getCurrentSummary,
+        setActiveTab,
+        stats: localStats,
+        totalGames: currentMeta.totalGames,
+        wins: currentMeta.wins,
+        winRate: currentMeta.winRate
     }
 }
