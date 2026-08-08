@@ -217,8 +217,8 @@ function renderStatsView({ stats, order, labels, summaryElement, chartElement, s
     return meta
 }
 
-function getGlobalStats() { // TODO change this to fetch from a server or API in the future
-    return {
+function getGlobalStats(playerCompletionKey) { // TODO change this to fetch from a server or API in the future
+    let stat = {
         games_with_attempts_1: 0,
         games_with_attempts_2: 2,
         games_with_attempts_3: 1,
@@ -228,6 +228,12 @@ function getGlobalStats() { // TODO change this to fetch from a server or API in
         games_with_attempts_plus: 17,
         games_failed: 12
     }
+
+    if (playerCompletionKey) {
+        stat[playerCompletionKey] = stat[playerCompletionKey] + 1
+    }
+
+    return stat
 }
 
 export function createStatsPopup(statsInput, options = {}) {
@@ -254,7 +260,7 @@ export function createStatsPopup(statsInput, options = {}) {
     const defaultStats = typeof emptyStats !== "undefined" ? emptyStats : fallbackStats
     const defaultLabels = typeof statsLabels !== "undefined" ? statsLabels : fallbackLabels
     const localStats = normalizeStats(statsInput || defaultStats)
-    const globalStats = normalizeStats(getGlobalStats())
+    const globalStats = normalizeStats(getGlobalStats(options.playerCompletionKey))
     const labels = { ...defaultLabels, ...(options.labels || {}) }
     const title = options.title || "Your previous performance"
     const mountTarget = options.mountTarget || document.body
