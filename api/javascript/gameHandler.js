@@ -4,6 +4,18 @@ let selectedSuggestionIndex = -1
 let alreadyGuessed = []
 const currentDate = new Date().toISOString().split("T")[0];
 
+let emptyStats = {
+    games_startet: 0,
+    games_with_attempts_1: 0,
+    games_with_attempts_2: 0,
+    games_with_attempts_3: 0,
+    games_with_attempts_4: 0,
+    games_with_attempts_5: 0,
+    games_with_attempts_6: 0,
+    games_with_attempts_plus: 0,
+    games_failed: 0
+}
+
 export function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCallback) {
     if (localStorage.getItem(`${gameTitle}-${currentDate}`) != null) {
         alreadyGuessed = JSON.parse(localStorage.getItem(`${gameTitle}-${currentDate}`))
@@ -31,6 +43,14 @@ export function loadGame(gameTitle, todaysSolutionName, solutions, displayRowsCa
         guessInput.select()
         document.getElementById("submit-button").addEventListener("click", (e) => submitGuess(e, gameTitle, solutions, displayRowsCallback))
     }
+}
+
+export function getStats(gameTitle) {
+    return JSON.parse(localStorage.getItem(`${gameTitle}-stats`)) || emptyStats
+}
+
+export function updateStats(gameTitle, stats) {
+    localStorage.setItem(`${gameTitle}-stats`, JSON.stringify(stats))
 }
 
 function submitGuess(e, gameTitle, solutions, displayRowsCallback) {
