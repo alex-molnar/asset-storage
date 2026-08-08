@@ -78,6 +78,7 @@
 }
 */
 
+import {sendRequest} from "./sendRequest.js"
 
 const statsBarOrder = [
     "games_with_attempts_1",
@@ -216,17 +217,16 @@ function renderStatsView({ stats, order, labels, summaryElement, chartElement, s
 
     return meta
 }
-
-function getGlobalStats(playerCompletionKey) { // TODO change this to fetch from a server or API in the future
-    let stat = {
+function getGlobalStats(playerCompletionKey, gameTitle) { 
+    let stat = sendRequest(gameTitle) || {
         games_with_attempts_1: 0,
-        games_with_attempts_2: 2,
-        games_with_attempts_3: 1,
-        games_with_attempts_4: 8,
-        games_with_attempts_5: 9,
-        games_with_attempts_6: 10,
-        games_with_attempts_plus: 17,
-        games_failed: 12
+        games_with_attempts_2: 0,
+        games_with_attempts_3: 0,
+        games_with_attempts_4: 0,
+        games_with_attempts_5: 0,
+        games_with_attempts_6: 0,
+        games_with_attempts_plus: 0,
+        games_failed: 0
     }
 
     if (playerCompletionKey) {
@@ -260,7 +260,7 @@ export function createStatsPopup(statsInput, options = {}) {
     const defaultStats = typeof emptyStats !== "undefined" ? emptyStats : fallbackStats
     const defaultLabels = typeof statsLabels !== "undefined" ? statsLabels : fallbackLabels
     const localStats = normalizeStats(statsInput || defaultStats)
-    const globalStats = normalizeStats(getGlobalStats(options.playerCompletionKey))
+    const globalStats = normalizeStats(getGlobalStats(options.playerCompletionKey, options.gameTitle))
     const labels = { ...defaultLabels, ...(options.labels || {}) }
     const title = options.title || "Your previous performance"
     const mountTarget = options.mountTarget || document.body
