@@ -1,4 +1,5 @@
 import { capitalize, unLe } from "./stringUtils.js"
+import { postRequest } from "./sendRequest.js"
 
 let selectedSuggestionIndex = -1
 let alreadyGuessed = []
@@ -48,8 +49,18 @@ export function getStats(gameTitle) {
     return JSON.parse(localStorage.getItem(`${gameTitle}-stats`)) || emptyStats
 }
 
-export function updateStats(gameTitle, stats) {
+export function updateStats(gameTitle, stats, result) {
     localStorage.setItem(`${gameTitle}-stats`, JSON.stringify(stats))
+    let path
+    let amount
+    if (result === 'games_failed') {
+        path = 'failed_game'
+
+    } else {
+        path = 'success_game'
+        amount = result.includes('plus') ? '67' : result.replace('games_with_attempts_', '')
+    }
+    postRequest(gameTitle, path, amount)
 }
 
 function submitGuess(e, gameTitle, solutions, displayRowsCallback) {
