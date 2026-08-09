@@ -16,15 +16,8 @@ export function sendRequest(gameTitle) {
 		throw new Error(`Request failed with status ${request.status}`)
 	}
 
-    console.log(`Request to ${url} succeeded with status ${request.status}`)
-    console.log(`Response: ${request.responseText}`)
 
-	const contentType = request.getResponseHeader("Content-Type") || ""
-	if (contentType.toLowerCase().includes("application/json")) {
-		return JSON.parse(request.responseText)
-	}
-
-	return request.responseText
+    return JSON.parse(request.responseText)
 }
 
 export function postRequest(gameTitle, result, optionalPathPart) {
