@@ -218,16 +218,19 @@ function renderStatsView({ stats, order, labels, summaryElement, chartElement, s
     return meta
 }
 function getGlobalStats(playerCompletionKey, gameTitle) { 
-    let stat = sendRequest(gameTitle) || {
-        games_with_attempts_1: 0,
-        games_with_attempts_2: 0,
-        games_with_attempts_3: 0,
-        games_with_attempts_4: 0,
-        games_with_attempts_5: 0,
-        games_with_attempts_6: 0,
-        games_with_attempts_plus: 0,
-        games_failed: 0
-    }
+    let stat = sendRequest(gameTitle) 
+    //|| {
+    //     games_with_attempts_1: 0,
+    //     games_with_attempts_2: 0,
+    //     games_with_attempts_3: 0,
+    //     games_with_attempts_4: 0,
+    //     games_with_attempts_5: 0,
+    //     games_with_attempts_6: 0,
+    //     games_with_attempts_plus: 0,
+    //     games_failed: 0
+    // }
+
+    console.log(`Fetched global stats for ${gameTitle}:`, stat)
 
     if (playerCompletionKey) {
         stat[playerCompletionKey] = stat[playerCompletionKey] + 1
