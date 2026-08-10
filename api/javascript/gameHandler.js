@@ -60,7 +60,6 @@ export function updateStats(gameTitle, stats, result) {
         path = 'success_game'
         amount = result.includes('plus') ? '67' : result.replace('games_with_attempts_', '')
     }
-    console.log(`Updating stats for ${gameTitle}: result=${result}, path=${path}, amount=${amount}`)
     postRequest(gameTitle, path, amount)
 }
 
