@@ -230,12 +230,13 @@ function getGlobalStats(playerCompletionKey, gameTitle) {
     keyUpdatedStats["games_with_attempts_plus"] = stat.attempts_plus || 0
 
     console.log(`Fetched global stats for ${gameTitle}:`, stat)
+    console.log(`Fetched global keyUpdatedStats for ${gameTitle}:`, keyUpdatedStats)
 
     if (playerCompletionKey) {
-        stat[playerCompletionKey] = stat[playerCompletionKey] + 1
+        keyUpdatedStats[playerCompletionKey] = keyUpdatedStats[playerCompletionKey] + 1
     }
 
-    return stat
+    return keyUpdatedStats
 }
 
 export function createStatsPopup(statsInput, options = {}) {
