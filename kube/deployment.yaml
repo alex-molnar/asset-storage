@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: asset-storage
-        image: kingbrady/asset-storage:1.5.0
+        image: kingbrady/asset-storage:1.5.1
         ports:
         - containerPort: 80
