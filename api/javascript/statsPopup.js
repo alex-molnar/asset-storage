@@ -182,7 +182,17 @@ function getTopPercentageMessage(globalStats, completionKey, order, labels) {
         return `No global players completed in ${labels[completionKey] || completionKey} yet.`
     }
 
-    const percent = Math.max(1, Math.round((bucketCount / totalPlayers) * 100))
+    // Calculate cumulative: count all players with this attempt level or better (fewer attempts)
+    const completionKeyIndex = order.indexOf(completionKey)
+    const successfulAttemptBuckets = order.filter(key => key !== "games_failed")
+    const yourBucketIndexInSuccessful = successfulAttemptBuckets.indexOf(completionKey)
+    
+    // Sum all players from 1 attempt up to your attempt level (inclusive)
+    const playersAsGoodOrBetter = successfulAttemptBuckets
+        .slice(0, yourBucketIndexInSuccessful + 1)
+        .reduce((sum, key) => sum + (globalStats[key] || 0), 0)
+    
+    const percent = Math.max(1, Math.round((playersAsGoodOrBetter / totalPlayers) * 100))
     return `You are in the top ${percent}% of players globally.`
 }
 
