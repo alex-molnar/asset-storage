@@ -4,7 +4,7 @@ export function sendRequest(gameTitle) {
 		throw new Error("gameTitle must be a non-empty string")
 	}
 
-    const url = `https://api.games.kak.im/games/${gameTitle}/today`
+    const url = `https://api.games.kak.im/games/${gameTitle}/today/stats`
 	const request = new XMLHttpRequest()
 
 	// Synchronous request by passing false as the third argument.
@@ -30,7 +30,7 @@ export function postRequest(gameTitle, result, optionalPathPart) {
 
 	const amount = result === 'success_game' ? `/${optionalPathPart}` || '' : ''
 
-	const url = `https://api.games.kak.im/games/${gameTitle}/date/today/${result}${amount}`
+	const url = `https://api.games.kak.im/games/${gameTitle}/today/${result}${amount}`
 	const request = new XMLHttpRequest()
 
 	// Fire-and-forget request: async mode returns immediately.

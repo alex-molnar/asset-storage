@@ -177,9 +177,17 @@ function getTopPercentageMessage(globalStats, completionKey, order, labels) {
         return "Global ranking is not available yet."
     }
 
-    const bucketCount = globalStats[completionKey] || 0
-    if (bucketCount <= 0) {
+    if ((globalStats[completionKey] - 1 || 0) <= 0) {
         return `No global players completed in ${labels[completionKey] || completionKey} yet.`
+    }
+
+    let bucketCount = 0
+
+    for (let statKey of order) {
+        if (statKey === completionKey) {
+            break
+        }
+        bucketCount += globalStats[statKey] || 0
     }
 
     const percent = Math.max(1, Math.round((bucketCount / totalPlayers) * 100))
@@ -218,22 +226,22 @@ function renderStatsView({ stats, order, labels, summaryElement, chartElement, s
     return meta
 }
 function getGlobalStats(playerCompletionKey, gameTitle) { 
-    let stat = sendRequest(gameTitle) || {
-        games_with_attempts_1: 0,
-        games_with_attempts_2: 0,
-        games_with_attempts_3: 0,
-        games_with_attempts_4: 0,
-        games_with_attempts_5: 0,
-        games_with_attempts_6: 0,
-        games_with_attempts_plus: 0,
-        games_failed: 0
+    let stat = sendRequest(gameTitle) 
+
+    let keyUpdatedStats = {
+        games_failed: stat.failures || 0,
     }
+
+    for (let i = 1; i <= 6; i++) {
+        keyUpdatedStats[`games_with_attempts_${i}`] = stat[`attempts${i}`] || 0
+    }
+    keyUpdatedStats["games_with_attempts_plus"] = stat.attempts_plus || 0
 
     if (playerCompletionKey) {
-        stat[playerCompletionKey] = stat[playerCompletionKey] + 1
+        keyUpdatedStats[playerCompletionKey] = keyUpdatedStats[playerCompletionKey] + 1
     }
 
-    return stat
+    return keyUpdatedStats
 }
 
 export function createStatsPopup(statsInput, options = {}) {
