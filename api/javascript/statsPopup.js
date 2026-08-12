@@ -76,6 +76,20 @@
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
+
+.stats-popup-kofi {
+  display: block;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.stats-popup-kofi img {
+  transition: opacity 150ms ease;
+}
+
+.stats-popup-kofi:hover img {
+  opacity: 0.85;
+}
 */
 
 import {sendRequest} from "./sendRequest.js"
@@ -272,6 +286,7 @@ export function createStatsPopup(statsInput, options = {}) {
     const labels = { ...defaultLabels, ...(options.labels || {}) }
     const title = options.title || "Your previous performance"
     const mountTarget = options.mountTarget || document.body
+    const kofiImageNumber = options.kofiImageNumber ?? 5
     const order = typeof statsBarOrder !== "undefined" && Array.isArray(statsBarOrder) && statsBarOrder.length > 0
         ? statsBarOrder
         : Object.keys(localStats)
@@ -311,6 +326,23 @@ export function createStatsPopup(statsInput, options = {}) {
     globalTabButton.setAttribute("role", "tab")
     globalTabButton.dataset.tab = "global"
 
+    const kofiButton = options.kofiButton || (() => {
+        const anchor = document.createElement("a")
+        anchor.href = "https://ko-fi.com/R5H524XXQ8"
+        anchor.target = "_blank"
+        anchor.rel = "noopener noreferrer"
+        anchor.className = "stats-popup-kofi"
+
+        const img = document.createElement("img")
+        img.height = 36
+        img.style.cssText = "border:0px;height:36px;"
+        img.src = `https://storage.ko-fi.com/cdn/kofi${kofiImageNumber}.png?v=6`
+        img.alt = "Buy Me a Coffee at ko-fi.com"
+
+        anchor.appendChild(img)
+        return anchor
+    })()
+
     if (!localTabButton.isConnected) {
         tabs.appendChild(localTabButton)
     }
@@ -321,7 +353,7 @@ export function createStatsPopup(statsInput, options = {}) {
     if (!hasProvidedElements) {
         const header = buildStatsElement("div", "stats-popup-header")
         header.append(heading, closeButton)
-        popup.append(header, tabs, summary, chart)
+        popup.append(header, tabs, summary, chart, kofiButton)
         overlay.appendChild(popup)
     } else if (!tabs.isConnected) {
         const insertionPoint = popup.querySelector(".stats-popup-summary") || summary
