@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norvégia Trip - Útvonalak</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            font-size: 2em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            padding-left: 10px;
+            border-left: 5px solid #e74c3c;
+        }
+        
+        h3 {
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        h4 {
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #34495e;
+            font-weight: 600;
+        }
+        
+        h5 {
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #34495e;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        em {
+            font-style: italic;
+        }
+        
+        .tldr {
+            background-color: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .tldr h4 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        
+        .todo {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        hr {
+            margin: 30px 0;
+            border: none;
+            border-top: 2px solid #ecf0f1;
+        }
+        
+        .day-section {
+            background-color: #fafafa;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .bottom-nav {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .nav-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #2980b9;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ez a doksi</h1>
+        
+        <h2>Amirol lesz szo</h2>
+        <ul>
+            <li>Nagysagrendi utvonalak</li>
+            <li>Fo programok a napokra</li>
+            <li>Olyan opcionalis programok/helyek eldontese amik befolyasoljak az utvonalat es elore kell donteni</li>
+            <li>Olyan gasztronomiai +, ami emlitesre erdemes</li>
+            <li>Ahol az opcion belul is dontes szukseges kulon (szinessel hogy akinek nincs kedve ne kelljen elolvasnia) meg lesz jelolve igy: </li>
+            <li><span class="todo">← TODO pelda</span></li>
+        </ul>
+        
+        <h2>Amirol <strong>NEM</strong> lesz szo</h2>
+        <ul>
+            <li>Pontos utvonalak</li>
+            <li>Reszletes napon beluli terv</li>
+            <li>Pontos szallasok/ettermek/kavezok/megallohelyek</li>
+            <li>Egyeb logiszztikai kerdesek (mit eszunk, milyen ruha kell aznapra, stb..)</li>
+        </ul>
+        
+        <hr>
+        
+        <h1>Elso variacio</h1>
+        <div class="tldr">
+            <h4>TL;DR</h4>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Trolltunga tura benne van</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Kicsit hajtosabb, haladosabb tempo, nem sok chill ido</li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Pentek</h2>
+            <p><a href="https://www.google.com/maps/dir/Bergeni+rep%C3%BCl%C5%91t%C3%A9r,+Flyplassvegen+555,+5258+Bergen,+Norv%C3%A9gia/Steinsdalsfossen,+Mo+ved+Steinsdalen,+5600+Norheimsund,+Norv%C3%A9gia/Odda,+5750,+Norv%C3%A9gia/@60.2473982,5.5545693,10z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x463cf077ebbd99cd:0xec6823fbf8790!2m2!1d5.2219012!2d60.2938358!1m5!1m1!1s0x463c343534cc79d7:0xcfbdfe770adfa0d7!2m2!1d6.1030028!2d60.3708694!1m5!1m1!1s0x463e9fe8c6ab2991:0xa2a0d97dc98b84f6!2m2!1d6.5462349!2d60.0691756!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><em>Fo program</em>: Nincs, utazas + minden egyeb leirt teszi ki</p>
+            <p>Erkezes. A tervezett ut gyakorlatilag kitero nelkuli megtetele. Ott nyugiba megalvas korbenezes vacsi. Tovabbi napokra nemi supply beszerzese.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/listings/steinsdalsfossen-waterfall/14039/" target="_blank">Steinsdalsfossen vizeses</a> - meno be lehet setalni mogeje nekije</li>
+                <li><a href="https://www.heitgrimo.no/" target="_blank">Heitgrimo</a> <span class="todo">← TODO ezt foglalni kell</span></li>
+                <li>ebben a scenarioban mindeketto ^ boven realis</li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Szombat</h2>
+            <p><a href="https://www.google.com/maps/dir/Odda,+5750,+Norv%C3%A9gia/Gaustatoppen,+3660+Rjukan,+Norv%C3%A9gia/@59.7509988,7.0878581,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x463e9fe8c6ab2991:0xa2a0d97dc98b84f6!2m2!1d6.5462349!2d60.0691756!1m5!1m1!1s0x463f5ebc39ff7559:0xaa74e48aa42fb8e3!2m2!1d8.649171!2d59.8542133!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><a href="https://www.trolltunga.com/en/plan-your-hike/the-hike-to-trolltunga" target="_blank">Fo program</a></p>
+            <p>Trolltunga megmaszasa, ez egy <em>"kemenyebb"</em> egesz napos tura, szoval gyakoraltilag az a program. Tura utan tovabballava a kozevtkezo helyre.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li><a href="https://maps.app.goo.gl/dp2oGRPvBEyFdi5E6" target="_blank">Vizeses kavezo</a> - ez attol fugg mikor vegzunk, meg amugy azert extra mert van egy kavezo ami kb a vizesesben van, de persze ki tudja az meddig van nyitva (en nem talalom a terkepen)</li>
+                <li><a href="https://booking.gausta.com/no/se-gjore/2873049/flytende-badstue/showdetails" target="_blank">Floating sauna</a></li>
+                <li>Gausta az ott egy ilyen nagyobb/aktivabb resz szoval ott vannak programok varos szinten is nem csak tura szinten, persze ha ugy erunk szinten</li>
+                <li><a href="https://www.visitnorway.nl/listings/vierli-sauna/232274/" target="_blank">Vierli Sauna</a></li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Vasarnap</h2>
+            <p><a href="https://www.google.com/maps/dir/Gaustatoppen,+3660+Rjukan,+Norv%C3%A9gia/Fl%C3%A5m,+5743,+Norv%C3%A9gia/@60.3667719,7.3116684,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x463f5ebc39ff7559:0xaa74e48aa42fb8e3!2m2!1d8.649171!2d59.8542133!1m5!1m1!1s0x463e13cfcfc357c3:0x33286ff6aad510c5!2m2!1d7.1117849!2d60.8607716!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><a href="https://www.visitnorway.com/listings/gaustatoppen/14251/" target="_blank">Fo program</a></p>
+            <p>Mivel ez egy chillesebb tura erre a napra a csucs megmaszasa/megvasutozasa a terv, hisz az ut kicsit hoszabb talan Flam-ig.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li>A Gausta komment ide is el ha ugy van</li>
+                <li><a href="https://www.visitnorway.nl/listings/stegastein-viewpoint/245683/" target="_blank">Kilato</a></li>
+                <li><a href="https://www.visitnorway.nl/listings/hike-to-prest-aurland/233793/" target="_blank">Hike to Prest Aurland</a></li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Hetfo</h2>
+            <p><a href="https://www.google.com/maps/dir/Fl%C3%A5m,+5743,+Norv%C3%A9gia/Vossevangen,+Norv%C3%A9gia/@60.6331604,6.2921011,11.74z/data=!4m14!4m13!1m5!1m1!1s0x463e13cfcfc357c3:0x33286ff6aad510c5!2m2!1d7.1117849!2d60.8607716!1m5!1m1!1s0x463dda94c103088d:0x48cb67552e0d2baa!2m2!1d6.4221512!2d60.6295624!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><a href="https://www.haugastol.no/en/rallarvegen" target="_blank">Fo program</a></p>
+            <p>Ez a bicozos nap lenne, es Flam eleg kiraly hely, szoval ha esetleg nagyon hamar vegzunk se esunk ketsegbe, el lehet verni az idot. A masik opcio hogy 1 ora Voss, es oda meg elvezetunk delutan.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <p>Nem az uton mert az nincs, de ott</p>
+            <ul>
+                <li><a href="https://www.aegirbryggeri.no/om-aegir_2/" target="_blank">Aegir Bryggeri</a></li>
+                <li>Megy cruise is a fjordbol akar</li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Kedd</h2>
+            <p><a href="https://www.google.com/maps/dir/Vossevangen,+Norv%C3%A9gia/Fr%C3%B8yset+kyrkje,+Fv5438+22,+5986+Hosteland,+Norv%C3%A9gia/@60.676062,5.3834037,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x463dda94c103088d:0x48cb67552e0d2baa!2m2!1d6.4221512!2d60.6295624!1m5!1m1!1s0x463d6cd7dfe99ff5:0xfce5fbdce48f04ec!2m2!1d5.2100319!2d60.8635377!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><a href="https://www.visitvoss.no/en" target="_blank">Fo program 1</a></p>
+            <p><em>Fo program 2:</em> Tura Oyvind-el <span class="todo">← TODO ot elore meg kell kerdeznem</span></p>
+            <p>Itt donthetunk vagy Voss-ban elutjuk az idot, vagy amit Oyvind javasolt turat megcsinaljuk. Itt olyan termeszetesen jatszik hogy azt dontjuk turazunk de olyan otromba ido van hogy megis Voss-ban maradunk. Masik iranyban kevesbe, mert akkor ugy kell elkernie melobol magat, neki is ugy kell tervezni. Vossbol megy fel egy nagy gondola az onmagaban jo, illetve lehet onnan mindenfele turazni is. Este pedig anyueknal minden jo. Sor bor palinka.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/listings/bordalsgjelet-gorge/213249/" target="_blank">Meno szoros</a> - ez egy nagyon meno szoros Voss setatavolsag</li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Szerda</h2>
+            <p><a href="https://www.google.com/maps/dir/Fr%C3%B8yset+kyrkje,+Fv5438+22,+5986+Hosteland,+Norv%C3%A9gia/Bergeni+rep%C3%BCl%C5%91t%C3%A9r,+Flyplassvegen+555,+5258+Bergen,+Norv%C3%A9gia/@60.6110587,4.6604714,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x463d6cd7dfe99ff5:0xfce5fbdce48f04ec!2m2!1d5.2100319!2d60.8635377!1m5!1m1!1s0x463cf077ebbd99cd:0xec6823fbf8790!2m2!1d5.2219012!2d60.2938358!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><em>Fo program:</em> Nincs, utazas + minden egyeb leirt teszi ki</p>
+            <p>Idotol meg kedvtol fuggoen itt Bergent meg tudjuk lesni valamennyire, nagyon szep szerintem, kicsi es setalhato a belvarosa. Aztan repterre menetel.</p>
+        </div>
+        
+        <hr>
+        
+        <h1>Masodik variacio</h1>
+        <div class="tldr">
+            <h4>TL;DR</h4>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Chillesebb menetterv, van ido sidequestelni</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Se Bergen se Trolltunga nincs benne tulzottan</li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Pentek</h2>
+            <p><a href="https://www.google.com/maps/dir/Bergeni+rep%C3%BCl%C5%91t%C3%A9r,+Flyplassvegen+555,+5258+Bergen,+Norv%C3%A9gia/Steinsdalsfossen,+Mo+ved+Steinsdalen,+5600+Norheimsund,+Norv%C3%A9gia/Odda,+5750,+Norv%C3%A9gia/@60.2473982,5.5545693,10z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x463cf077ebbd99cd:0xec6823fbf8790!2m2!1d5.2219012!2d60.2938358!1m5!1m1!1s0x463c343534cc79d7:0xcfbdfe770adfa0d7!2m2!1d6.1030028!2d60.3708694!1m5!1m1!1s0x463e9fe8c6ab2991:0xa2a0d97dc98b84f6!2m2!1d6.5462349!2d60.0691756!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><em>Fo program</em>: Nincs, utazas + minden egyeb leirt teszi ki</p>
+            <p>Erkezes. A tervezett ut gyakorlatilag kitero nelkuli megtetele. Ott nyugiba megalvas korbenezes vacsi. Tovabbi napokra nemi supply beszerzese.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/listings/steinsdalsfossen-waterfall/14039/" target="_blank">Steinsdalsfossen</a>- meno be lehet setalni mogeje nekije</li>
+                <li><a href="https://www.heitgrimo.no/" target="_blank">Heitgrimo</a> <span class="todo">← TODO le kell foglalni</span></li>
+                <li>ebben a scenarioban mindekettot szerintem nyomjuk, boven van idonk</li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Szombat</h2>
+            <p><a href="https://www.google.com/maps/dir/Odda,+5750,+Norv%C3%A9gia/Gaustatoppen,+3660+Rjukan,+Norv%C3%A9gia/@59.7509988,7.0878581,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x463e9fe8c6ab2991:0xa2a0d97dc98b84f6!2m2!1d6.5462349!2d60.0691756!1m5!1m1!1s0x463f5ebc39ff7559:0xaa74e48aa42fb8e3!2m2!1d8.649171!2d59.8542133!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><a href="https://www.visitnorway.com/listings/gaustatoppen/14251/" target="_blank">Fo program</a></p>
+            <p>Mivel ez egy lazabb tura, reggeli vezetessel, erkezes utan megcsinalhato lazaban.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li><a href="https://booking.gausta.com/no/se-gjore/2873049/flytende-badstue/showdetails" target="_blank">Floating sauna</a></li>
+                <li>Gausta az ott egy ilyen nagyobb/aktivabb resz szoval ott vannak programok varos szinten is nem csak tura szinten, persze ha ugy erunk szinten</li>
+                <li><a href="https://www.visitnorway.nl/listings/vierli-sauna/232274/" target="_blank">Vierli Sauna</a></li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Vasarnap</h2>
+            <p><a href="https://www.google.com/maps/dir/Gaustatoppen,+3660+Rjukan,+Norv%C3%A9gia/Fl%C3%A5m,+5743,+Norv%C3%A9gia/@60.3667719,7.3116684,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x463f5ebc39ff7559:0xaa74e48aa42fb8e3!2m2!1d8.649171!2d59.8542133!1m5!1m1!1s0x463e13cfcfc357c3:0x33286ff6aad510c5!2m2!1d7.1117849!2d60.8607716!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><em>Fo program</em>: Flam.</p>
+            <p>Itt vezetes utan a delutan/estet Flam-ban toltenenk, itt fizen beleferhet valami hajozas, tura a kornyeken, a brewery mindenkepp. Ebben a verzioban ez egy chillesebb lazabb nap.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/listings/stegastein-viewpoint/245683/" target="_blank">Kilato</a></li>
+                <li><a href="https://www.visitnorway.nl/listings/hike-to-prest-aurland/233793/" target="_blank">Hike to Prest Aurland</a></li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Hetfo</h2>
+            <p><a href="https://www.google.com/maps/dir/Fl%C3%A5m,+5743,+Norv%C3%A9gia/Vossevangen,+Norv%C3%A9gia/@60.6331604,6.2921011,11.74z/data=!4m14!4m13!1m5!1m1!1s0x463e13cfcfc357c3:0x33286ff6aad510c5!2m2!1d7.1117849!2d60.8607716!1m5!1m1!1s0x463dda94c103088d:0x48cb67552e0d2baa!2m2!1d6.4221512!2d60.6295624!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><a href="https://www.haugastol.no/en/rallarvegen" target="_blank">Fo program</a></p>
+            <p>Innen akkor a biciklizos nap utan Voss fele vennenk az iranyt fixen nap vegen. Opcionalisan ha hamar vegzunk meg meg lehet nezni a szorost ilyesmi.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li><a href="https://maps.app.goo.gl/5gk5kieAad8NrN4z5" target="_blank">Meno szoros</a> - ez egy nagyon meno szoros Voss setatavolsag</li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Kedd</h2>
+            <p><a href="https://www.google.com/maps/dir/Vossevangen,+Norv%C3%A9gia/Fr%C3%B8yset+kyrkje,+Fv5438+22,+5986+Hosteland,+Norv%C3%A9gia/@60.676062,5.3834037,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x463dda94c103088d:0x48cb67552e0d2baa!2m2!1d6.4221512!2d60.6295624!1m5!1m1!1s0x463d6cd7dfe99ff5:0xfce5fbdce48f04ec!2m2!1d5.2100319!2d60.8635377!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><a href="https://www.visitvoss.no/en" target="_blank">Fo program 1</a></p>
+            <p><em>Fo program 2:</em> Tura Oyvind-el <span class="todo">← TODO szolnom kell neki elore</span></p>
+            <p>Itt donthetunk vagy Voss-ban elutjuk az idot, vagy amit Oyvind javasolt turat megcsinaljuk. Itt olyan termeszetesen jatszik hogy azt dontjuk turazunk de olyan otromba ido van hogy megis Voss-ban maradunk. Masik iranyban kevesbe, mert akkor ugy kell elkernie melobol magat, neki is ugy kell tervezni. Vossbol megy fel egy nagy gondola az onmagaban jo, illetve lehet onnan mindenfele turazni is. Este pedig anyueknal minden jo. Sor bor palinka.</p>
+        </div>
+        
+        <div class="day-section">
+            <h2>Szerda</h2>
+            <p><a href="https://www.google.com/maps/dir/Fr%C3%B8yset+kyrkje,+Fv5438+22,+5986+Hosteland,+Norv%C3%A9gia/Bergeni+rep%C3%BCl%C5%91t%C3%A9r,+Flyplassvegen+555,+5258+Bergen,+Norv%C3%A9gia/@60.6110587,4.6604714,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x463d6cd7dfe99ff5:0xfce5fbdce48f04ec!2m2!1d5.2100319!2d60.8635377!1m5!1m1!1s0x463cf077ebbd99cd:0xec6823fbf8790!2m2!1d5.2219012!2d60.2938358!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><em>Fo program:</em> Nincs, utazas + minden egyeb leirt teszi ki</p>
+            <p>Idotol meg kedvtol fuggoen itt Bergent meg tudjuk lesni valamennyire, nagyon szep szerintem, kicsi es setalhato a belvarosa. Aztan repterre menetel.</p>
+        </div>
+        
+        <hr>
+        
+        <h1>Harmadik variacio</h1>
+        <div class="tldr">
+            <h4>TL;DR</h4>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Szinten chillesebb sidequestelos tempo</li>
+                <li>Bergen varosnezes</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>A tura vegen talan kevesebb ido van par dologra (Voss pl)</li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Pentek</h2>
+            <p><em>Tervezett ut:</em> Semmi</p>
+            <p><a href="https://www.floyen.no/en/floibanen" target="_blank">Fo program</a> / <a href="https://ulriken643.no/en" target="_blank">Fo program</a></p>
+            <p>Ebben a variacioban Bergent kicsit jobban megnezzuk, igy van alkalmunk valamelyik felvonoval felmenni az egyik kozeli hegyre is (varosbol indulos verzio ez kozel). Az hogy melyik azt nem kell elore eldonteni, erre nem kell elore jegyet venni azert irtam igy.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li><a href="https://en.visitbergen.com/things-to-do/bryggen-in-bergen-p878553" target="_blank">Bryggen in Bergen</a></li>
+                <li><a href="https://en.visitbergen.com/things-to-do/fish-market-in-bergen-p822253" target="_blank">Fish Market in Bergen</a></li>
+                <li><a href="https://en.visitbergen.com/information/product-catch-all/all-year-christmas-shop-p824063" target="_blank">All Year Christmas Shop</a></li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Szombat</h2>
+            <p><a href="https://www.google.com/maps/dir/Bergen,+Norv%C3%A9gia/Gaustatoppen,+3660+Rjukan,+Norv%C3%A9gia/@60.0361016,5.8075776,8z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x46390d4966767d77:0x9e42a03eb4de0a08!2m2!1d5.3220544!2d60.3912628!1m5!1m1!1s0x463f5ebc39ff7559:0xaa74e48aa42fb8e3!2m2!1d8.649171!2d59.8542133!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut 1</a> <span class="todo">← TODO vagy ez</span></p>
+            <p><a href="https://www.google.com/maps/dir/Bergen,+Norv%C3%A9gia/Gaustatoppen,+3660+Rjukan,+Norv%C3%A9gia/@60.0361016,5.8075776,8z/data=!4m15!4m14!1m5!1m1!1s0x46390d4966767d77:0x9e42a03eb4de0a08!2m2!1d5.3220544!2d60.3912628!1m5!1m1!1s0x463f5ebc39ff7559:0xaa74e48aa42fb8e3!2m2!1d8.649171!2d59.8542133!3e0!5i2?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut 2</a> <span class="todo">← TODO vagy ez</span></p>
+            <p>It ez egy nagyobb vezetes par highlight-al az ut mellet, es erkezes utan pedig ott a volgyi varosban chillezes. Itt akkor biztos jatszik szerintem egy sauna, meg valami progi, akar egy seta/kis tura.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li><a href="https://booking.gausta.com/no/se-gjore/2873049/flytende-badstue/showdetails" target="_blank">Floating sauna</a></li>
+                <li>Gausta az ott egy ilyen nagyobb/aktivabb resz szoval ott vannak programok varos szinten is nem csak tura szinten, persze ha ugy erunk szinten</li>
+            </ul>
+            
+            <h4>Plusz latnivalok az uton (Tervezett ut 1-hez)</h4>
+            <ul>
+                <li><a href="https://siderruta.no/en/" target="_blank">Siderruta</a></li>
+                <li><a href="https://www.visitnorway.nl/listings/voringsfossen/158686/" target="_blank">Voringsfossen</a></li>
+                <li><a href="https://en.visitbergen.com/things-to-do/walk-up-the-17-hairpin-bends-at-kossdalsvingane-on-osteroy-p5544423" target="_blank">Walk up the 17 hairpin bends at Kossdalsvingane on Osteroy</a></li>
+            </ul>
+            
+            <h4>Plusz latnivalok az uton (Tervezett ut 2-hoz)</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/listings/steinsdalsfossen-waterfall/14039/" target="_blank">Steinsdalsfossen vizeses</a> - meno be lehet setalni mogeje nekije</li>
+                <li><a href="https://www.visitnorway.nl/listings/latefoss-waterfall/14047/" target="_blank">Latefoss waterfall</a> - elvileg van egy kavezo ami kb a vizesesben van</li>
+                <li><a href="https://www.visitnorway.nl/listings/vierli-sauna/232274/" target="_blank">Vierli Sauna</a></li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Vasarnap</h2>
+            <p><a href="https://www.google.com/maps/dir/Gaustatoppen,+3660+Rjukan,+Norv%C3%A9gia/Fl%C3%A5m,+5743,+Norv%C3%A9gia/@60.3667719,7.3116684,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x463f5ebc39ff7559:0xaa74e48aa42fb8e3!2m2!1d8.649171!2d59.8542133!1m5!1m1!1s0x463e13cfcfc357c3:0x33286ff6aad510c5!2m2!1d7.1117849!2d60.8607716!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><a href="https://www.visitnorway.com/listings/gaustatoppen/14251/" target="_blank">Fo program</a></p>
+            <p>Mivel ez egy chillesebb tura erre a napra a csucs megmaszasa/megvasutozasa a terv, hisz az ut kicsit hoszabb talan Flam-ig.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <ul>
+                <li>A Gausta komment ide is el ha ugy van</li>
+                <li><a href="https://www.visitnorway.nl/listings/stegastein-viewpoint/245683/" target="_blank">Kilato</a></li>
+                <li><a href="https://www.visitnorway.nl/listings/hike-to-prest-aurland/233793/" target="_blank">Hike to Prest Aurland</a></li>
+            </ul>
+        </div>
+        
+        <div class="day-section">
+            <h2>Hetfo</h2>
+            <p><a href="https://www.google.com/maps/dir/Fl%C3%A5m,+5743,+Norv%C3%A9gia/Vossevangen,+Norv%C3%A9gia/@60.6331604,6.2921011,11.74z/data=!4m14!4m13!1m5!1m1!1s0x463e13cfcfc357c3:0x33286ff6aad510c5!2m2!1d7.1117849!2d60.8607716!1m5!1m1!1s0x463dda94c103088d:0x48cb67552e0d2baa!2m2!1d6.4221512!2d60.6295624!3e0?entry=ttu&g_ep=EgoyMDI2MDgxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Tervezett ut</a></p>
+            <p><a href="https://www.haugastol.no/en/rallarvegen" target="_blank">Fo program</a></p>
+            <p>Ez a bicozos nap lenne, es Flam eleg kiraly hely, szoval ha esetleg nagyon hamar vegzunk se esunk ketsegbe, el lehet verni az idot. A masik opcio hogy 1 ora Voss, es oda meg elvezetunk delutan.</p>
+            
+            <h4>Plusz latnivalok az uton</h4>
+            <p>Nem az uton mert az nincs, de ott</p>
+            <ul>
+                <li><a href="https://www.aegirbryggeri.no/om-aegir_2/" target="_blank">Aegir Bryggeri</a></li>
+                <li>Megy cruise is a fjordbol akar</li>
+            </ul>
+        </div>
+
+        <div class="bottom-nav">
+            <a class="nav-btn" href="index.html">Highlightok oldal</a>
+        </div>
+    </div>
+</body>
+</html>
