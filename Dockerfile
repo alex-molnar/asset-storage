@@ -8,3 +8,4 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY assets /usr/share/nginx/assets
 COPY api /usr/share/nginx/api
 COPY main/index.html /usr/share/nginx/html
+COPY main/routes.html /usr/share/nginx/html
