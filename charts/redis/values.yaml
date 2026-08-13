@@ -1,0 +1,19 @@
+fullnameOverride: redis
+nameOverride: redis
+
+auth:
+  password: # admin password
+
+master:
+  extraFlags:
+  - --
+
+metrics:
+  enabled: true
+  # extraArgs:
+  #   skip-tls-verification: true
+  serviceMonitor:
+    enabled: true
+
+replica:
+  replicaCount: 1

@@ -1,0 +1,7 @@
+grafana:
+  adminPassword: # admin password
+  adminUser: freddy
+
+prometheus:
+  prometheusSpec:
+    serviceMonitorSelectorNilUsesHelmValues: false

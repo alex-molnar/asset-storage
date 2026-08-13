@@ -1,0 +1,33 @@
+hostname: rancher.kak.im
+bootstrapPassword: 9f7d8e3c1b0a4e5f
+auditLog:
+  enabled: true
+  level: 3
+
+# Add generous probe timeouts for Rancher's long startup
+readinessProbe:
+  initialDelaySeconds: 180      # Wait before first check
+  timeoutSeconds: 30            # Allow 30s for response
+  periodSeconds: 10             # Check every 10s
+  failureThreshold: 3           # Allow 3 failures
+
+livenessProbe:
+  initialDelaySeconds: 180      # Longer delay for startup
+  timeoutSeconds: 30
+  periodSeconds: 10
+  failureThreshold: 3
+
+startupProbe:
+  failureThreshold: 90
+  periodSeconds: 10
+  successThreshold: 1
+  timeoutSeconds: 30
+
+# Check if you need resource increases
+resources:
+  requests:
+    memory: "512Mi"    # Rancher typically needs 512Mi minimum
+    cpu: "500m"
+  limits:
+    memory: "2Gi"      # May need up to 2Gi during startup
+    cpu: "2000m"

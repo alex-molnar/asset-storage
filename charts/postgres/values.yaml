@@ -1,0 +1,18 @@
+fullnameOverride: postgres
+nameOverride: postgres
+
+global:
+  postgres:
+    auth:
+      postgresPassword: # admin password
+
+metrics:
+  enabled: true
+  serviceMonitor:
+    enabled: true
+
+# primary:
+#   service:
+#     nodePorts:
+#       postgresql: 30432
+#     type: NodePort

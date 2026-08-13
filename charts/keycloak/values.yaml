@@ -1,0 +1,73 @@
+auth:
+  adminPassword: freddyntony
+  adminUser: freddy
+
+postgresql:
+  enabled: false
+
+externalDatabase:
+  database: keycloak
+  existingSecret: keycloak-db-secret
+  existingSecretPasswordKey: db-password
+  host: postgres.postgres.svc.cluster.local
+  port: 5432
+  user: keycloak
+
+extraEnv: |
+  - name: KC_PROXY
+    value: "edge"
+  - name: KC_HOSTNAME
+    value: "auth.drinksaver.kak.im"
+  - name: KC_HOSTNAME_STRICT
+    value: "false"
+  - name: KC_HOSTNAME_STRICT_HTTPS
+    value: "false"
+  - name: KC_HTTP_ENABLED
+    value: "true"
+  - name: DB_VENDOR
+    value: postgres
+  - name: DB_ADDR
+    value: postgres.postgres.svc.cluster.local
+  - name: DB_PORT
+    value: "5432"
+  - name: DB_DATABASE
+    value: keycloak
+  - name: DB_USER
+    value: keycloak
+  - name: DB_PASSWORD
+    valueFrom:
+      secretKeyRef:
+        name: keycloak-db-secret
+        key: db-password
+  - name: PROXY_ADDRESS_FORWARDING
+    value: "true"
+
+metrics:
+  enabled: true
+  serviceMonitor:
+    enabled: true
+
+ingress:
+  enabled: true
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+  ingressClassName: traefik
+  hostname: auth.drinksaver.kak.im
+  path: /
+  tls: true
+
+# ingress:
+#   enabled: true
+#   annotations:
+#     cert-manager.io/cluster-issuer: letsencrypt-prod
+#   ingressClassName: traefik
+#   rules:
+#     - host: auth.drinksaver.kak.im
+#       http:
+#         paths:
+#           - path: /
+#             pathType: Prefix
+#       tls:
+#         - hosts:
+#           - auth.drinksaver.kak.im
+#           secretName: keycloak-tls
