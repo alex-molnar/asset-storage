@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norvégia Trip - Szállások</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            font-size: 2em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            padding-left: 10px;
+            border-left: 5px solid #e74c3c;
+        }
+        
+        h3 {
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        h4 {
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #34495e;
+            font-weight: 600;
+        }
+        
+        h5 {
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #34495e;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        em {
+            font-style: italic;
+        }
+        
+        .tldr {
+            background-color: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .tldr h4 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        
+        .todo {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .recommended {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .recommended strong {
+            color: #155724;
+        }
+        
+        .budget {
+            background-color: #ffc4f7;
+            border-left: 4px solid #fc4bf0;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .budget strong {
+            color: #4f1557;
+        }
+        
+        hr {
+            margin: 30px 0;
+            border: none;
+            border-top: 2px solid #ecf0f1;
+        }
+        
+        .day-section {
+            background-color: #fafafa;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .bottom-nav {
+            margin-top: 40px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .nav-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #2980b9;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .price {
+            font-weight: 600;
+            color: #27ae60;
+        }
+        
+        .note {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .note strong {
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Szállások</h1>
+        
+        <p>Mivel ahányan annyi országból és valutával érkezünk, nincs értelme átváltogatni az árakat minden NOK-ban lesz megadva, és így mindenki tudja átváltogatni magának. Valamint total ár, Dancs meg azért el kell osztani 6-al.</p>
+        
+        <hr>
+        
+        <div class="day-section">
+            <h2>Péntek</h2>
+            
+            <div class="budget">
+                <h4><a href="https://hyttebestilling.dnt.no/hytte/10660?fromDate=2026-08-21&toDate=2026-08-22&numberOfGuests=6&adults=6&type=cabin&value=10660" target="_blank">Cabin opcio 1: Haukeliseter</a> ← Budget opció</h4>
+                <p><span class="price">Ár: 1000-3000 NOK</span></p>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Nagyon fasza gyönyörű helyen van</li>
+                    <li>Konkrétan az út mellett amin amúgy is megyünk</li>
+                    <li>Mindenféle opciónk van kajára plusz programra</li>
+                    <li>Relatíve olcsó</li>
+                    <li>Opcionálisan reggelivel az árban</li>
+                    <li>Teljes felszereltség</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Kb plusz 1 óra vezetés a "tervhez" képest</li>
+                    <li>Nem értem pontosan a szobákat, valszeg nincs 6os szoba szóval potenciálisan mással is egy szobába</li>
+                </ul>
+            </div>
+            
+            <h4><a href="https://hyttebestilling.dnt.no/hytte/10760?fromDate=2026-08-21&toDate=2026-08-22&numberOfGuests=6&adults=6&type=cabin&value=10760" target="_blank">Cabin opcio 2: Holmaskjer</a></h4>
+            <p><span class="price">Ár: 2000 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Autentikus hegyen lévő</li>
+                <li>Gleccserén komoly kilátással</li>
+                <li>Konkrétan az út mellett amin amúgy is megyünk</li>
+                <li>Kisváros mellett van szóval biztosan vannak vásárlási opcióink</li>
+                <li>Teljes felszereltség</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>7,5 km-es túra vezet fel</li>
+                <li>Nincs víz/áram</li>
+            </ul>
+            
+            <hr>
+            
+            <h4><a href="https://www.booking.com/hotel/no/seim-camping-ra-ldal.en-gb.html" target="_blank">Booking opcio 1: Seim camping</a></h4>
+            <p><span class="price">Ár: 2000 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Teljes apartman</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Nem pluszt ad hozzá hely/kilátás etc.</li>
+            </ul>
+            
+            <h4><a href="https://www.booking.com/hotel/no/hordatun-apartments.en-gb.html" target="_blank">Booking opcio 2: Hordatun</a></h4>
+            <p><span class="price">Ár: 2700 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>140 koronáért lehet jó reggelit hozzáadni</li>
+                <li>Egy részen lennénk, privát de ilyen hotel szerű</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Az ára</li>
+                <li>Ilyen sima hotelszerű</li>
+                <li>Nem értem teljesen azt írja 6 emberre a szoba de aztán azt írja 4 ágy van??</li>
+            </ul>
+            
+            <h4><a href="https://www.booking.com/hotel/no/odda-panorama.en-gb.html" target="_blank">Booking opcio 3: Odda Panorama</a></h4>
+            <p><span class="price">Ár: 3200 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Legközelebb eddig talán a reptértől, szóval chilles első este + szauna</li>
+                <li>Relatív nagyobb városka több opció mindenfelére</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Ár</li>
+                <li>Abszolút személytelen hotel</li>
+            </ul>
+            
+            <hr>
+            
+            <h4><a href="https://www.airbnb.co.in/rooms/51031170?adults=6&check_in=2026-08-21&check_out=2026-08-22" target="_blank">Airbnb opcio 1: Fjellbygda</a></h4>
+            <p><span class="price">Ár: 3000 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Ez egy ilyen filmbe beillő hegyi cabin</li>
+                <li>Komoly kilátások komoly kis terasszal</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Ár</li>
+            </ul>
+            
+            <h4><a href="https://www.airbnb.co.in/rooms/1721217259810962582?adults=6&check_in=2026-08-21&check_out=2026-08-22" target="_blank">Airbnb opcio 2: Cabin Røldal</a></h4>
+            <p><span class="price">Ár: 1400 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Ár</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Nem pluszt ad hozzá hely/kilátás etc.</li>
+            </ul>
+            
+            <div class="recommended">
+                <h4><a href="https://www.airbnb.co.in/rooms/671660208967210957?adults=6&check_in=2026-08-21&check_out=2026-08-22" target="_blank">Airbnb opcio 3: Apartment Røldal</a> ← Javasolt opció</h4>
+                <p><span class="price">Ár: 1600 NOK</span></p>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Ez egy ilyen filmbe beillő hegyi cabin</li>
+                    <li>Komoly kilátások komoly kis terasszal</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>?</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Szombat</h2>
+            
+            <h4><a href="https://hyttebestilling.dnt.no/hytte/10711?fromDate=2026-08-22&toDate=2026-08-23&numberOfGuests=6&adults=6&type=cabin&value=10711" target="_blank">Cabin opcio: Helberghytta</a></h4>
+            <p><span class="price">Ár: 2000 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Elég menő helyen hegyekben</li>
+                <li>Szarvas területen, szóval van esély szarvast látni</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>7km túra</li>
+                <li>Nincs víz (van vízlelőhely közelben)</li>
+                <li>Nincs áram (van gáz meg fa fűtés)</li>
+            </ul>
+            
+            <hr>
+            
+            <div class="recommended">
+                <h4><a href="https://www.booking.com/hotel/no/kvitay-vatn-fjellstoge.en-gb.html" target="_blank">Booking opcio 1: Kvitåvatn Fjellstue</a> ← Javasolt opció</h4>
+                <p><span class="price">Ár: 1700 NOK</span></p>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Ár</li>
+                    <li>Nagyon közel a szaunához (gyakorlatilag sétatáv szerintem)</li>
+                    <li>Meg úgy alapvetően ahhoz a tóhoz, szóval menő helyen van</li>
+                    <li>Terrace and a BBQ area</li>
+                    <li>Reggeli 160 koronáért adható</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Bunk beds</li>
+                    <li>Shared bathroom</li>
+                    <li>Nincs konyha ha jól látom szóval vagy hideg, vagy eszünk valamit</li>
+                </ul>
+            </div>
+            
+            <h4><a href="https://www.booking.com/hotel/no/gausta-view.en-gb.html" target="_blank">Booking opcio 2: Gausta View</a></h4>
+            <p><span class="price">Ár: 2900 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Szép kilátás talán akár a hegyre is amit megmászunk előtte</li>
+                <li>Tágas hely modern felszereltséggel</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Kicsit talán személytelenebb</li>
+                <li>Ár</li>
+            </ul>
+            
+            <hr>
+            
+            <h4><a href="https://www.airbnb.co.in/rooms/734088255627089824?adults=6&check_in=2026-08-22&check_out=2026-08-23" target="_blank">Airbnb opcio 1: Kollen Ski Lodge</a></h4>
+            <p><span class="price">Ár: 2700 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Ez egy olyan location amit így a Succession-ben el tudok képzelni hogy a gazdagok itt tárgyalnak</li>
+                <li>Modern felszereltség</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Ár talán</li>
+                <li>Azt írja a leírás hogy nem adják ki fiatal felnőtteknek akik bulizni akarnak a hegyen, kérdés mi fiatalnak számítunk-e még lol</li>
+            </ul>
+            
+            <h4><a href="https://www.airbnb.co.in/rooms/1427579066629749257?adults=6&check_in=2026-08-22&check_out=2026-08-23" target="_blank">Airbnb opcio 2: Sunny apartment</a></h4>
+            <p><span class="price">Ár: 2500 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Ez is nagyon jó szép helyen a tó mellett</li>
+                <li>Akár sétatávolságra a szaunától (1km)</li>
+                <li>A képeken mintha lenne egy privát szauna?? nem ír róla semmi mondjuk</li>
+                <li>Itt is van mindenféle kiülős tűzrakós minden</li>
+                <li>Elvileg arra a hegyre néz amit megmászunk</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Bunk beds</li>
+            </ul>
+            
+            <h4><a href="https://www.airbnb.co.in/rooms/631627211069588102?adults=6&check_in=2026-08-22&check_out=2026-08-23" target="_blank">Airbnb opcio 3: Large apartment with glazed balcony</a></h4>
+            <p><span class="price">Ár: 2500 NOK</span></p>
+            <p>Ez szerintem kb ugyanaz mint az előző, ugyanaz a host. Annyi hogy nincs szauna kép, de van egy fedett fűtött "terasz" jó kilátással.</p>
+            
+            <div class="budget">
+                <h4><a href="https://www.airbnb.co.in/rooms/44429333?adults=6&check_in=2026-08-22&check_out=2026-08-23" target="_blank">Airbnb opcio 4: Cozy apartment</a> ← Budget opció</h4>
+                <p><span class="price">Ár: 1600 NOK</span></p>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Ez is nagyon jó szép helyen a tó mellett</li>
+                    <li>Akár sétatávolságra a szaunától (1km)</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>4 bunk bed és 2en még kihúzható kanapén az alváslehetőségek</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Vasárnap</h2>
+            
+            <div class="note">
+                <p><strong>NOTE:</strong> Na itt van egy olyan csavar az egészben, hogy amennyire áradoztam a Flåm-ról, ezt az árak is tükrözik. Van egy elérhető hely Flåm-ben, ez az eddigieknél jóval drágább (teszem hozzá ez még ár érték arányban mindig iszonyat olcsó imo, Amszterdamban ezért hostel szobát kapsz kb, itt meg luxus). Ha ezt választjuk valszeg korán kelős a történet, mert napközben szívás az átszállás a vonaton amivel a biciklis mókát elérjük, és 1h15m helyett 2h15m.</p>
+                <p>A másik csavar a még már elhintett biciklis móka elérhetősége, szóval vannak opciók a hegyen is, ezekhez annyi disclaimer hogy kicsit hosszabb az átszállás idő Myrdal-ban (~1 óra), persze az hegyen szóval biztos nem egy blaha szintű várakozás. Illetve nem sokáig jár a vonat, szóval ilyen 5 körül el kéne indulnunk Flåm-ból. Illetve ehhez még hozzátartozik hogy úgy kell cuccot vigyünk éjszakára is legyen, de bicózni is fogunk vele (kocsi Flåm-ban marad mindkét opcióban)</p>
+            </div>
+            
+            <div class="recommended">
+                <h4><a href="https://www.booking.com/hotel/no/winjum-apartments-aurland-stegastein.en-gb.html" target="_blank">Flåm opcio: Winjum Apartments</a> ← Javasolt opció</h4>
+                <p><span class="price">Ár: 6000 NOK</span></p>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>Szerintem Norvégia egyik ha nem legszebb fjordja (és én azért láttam párat), és ez konkrétan arra néz</li>
+                    <li>Flåm-ban valszeg jobban el fogjuk tudni magunkat foglalni mint a hegyen</li>
+                    <li>Annyi cuccot viszünk bicózni ami a bicózáshoz kell</li>
+                    <li><strong>Note:</strong> Ez csak vélemény de szerintem jobb korán felkelni, mint délután rohanni és aggódni a vonaton</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Az ár az eddigihez kiugró persze</li>
+                </ul>
+            </div>
+            
+            <hr>
+            
+            <p><strong>NOTE:</strong> Innentől a következő közös pro és con pontok az összesre igazak, nem írom le őket többször:</p>
+            <p><strong>Közös Pros:</strong></p>
+            <ul>
+                <li>Ez olyan helyen van ami konkrétan érintetlen, semmi út nincs még a közelében sem, szóval elég természetközeli</li>
+                <li>Nyilván millió túraútvonal ott</li>
+                <li>Kelés után egyből bicikli gyakorlatilag, sétatávra</li>
+            </ul>
+            <p><strong>Közös Cons:</strong></p>
+            <ul>
+                <li>17:10-es vonattal el kell menni Flåm-ból</li>
+                <li>Amit vinni akarunk estére azt bicón is kell</li>
+            </ul>
+            
+            <h4><a href="https://hyttebestilling.dnt.no/hytte/10929?fromDate=2026-08-23&toDate=2026-08-24&numberOfGuests=6&adults=6&type=cabin&value=10929" target="_blank">Hegyi opcio 1: Finsehytta</a></h4>
+            <p><span class="price">Ár: 6000 NOK</span></p>
+            
+            <h4><a href="https://www.hotelfinse1222.no/" target="_blank">Hegyi opcio 2: Hotel Finse 1222</a></h4>
+            <p><span class="price">Ár: 8500 NOK</span></p>
+            <p><strong>Plus pro:</strong></p>
+            <ul>
+                <li>Reggelivel az árban</li>
+            </ul>
+            <p><strong>Plus con:</strong></p>
+            <ul>
+                <li>Ez messze a legszemélytelenebb kis hotelszoba eddig</li>
+            </ul>
+            
+            <div class="budget">
+                <h4><a href="https://www.inatur.no/tilbud/50f41543e4b0a76bd875d249" target="_blank">Hegyi opcio 3: Finsebu</a> ← Budget opció</h4>
+                <p><span class="price">Ár: 1800 NOK</span></p>
+                <p><strong>Plus pro:</strong></p>
+                <ul>
+                    <li>Ár nyilván</li>
+                </ul>
+                <p><strong>Plus con:</strong></p>
+                <ul>
+                    <li>Nincs víz (de közben még látok csapot meg WC-t a képen érdekes)</li>
+                    <li>Nincs ágynemű, ami azzal kombinálva hogy amit hozunk biciklizünk is vele macerás</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Hétfő</h2>
+            
+            <h4><a href="https://hyttebestilling.dnt.no/hytte/10256?fromDate=2026-08-24&toDate=2026-08-25&numberOfGuests=6&adults=6&type=cabin&value=10256" target="_blank">Cabin opcio 1: Volahytta</a></h4>
+            <p><span class="price">Ár: 2000 NOK (1000-et ír, de 345 per fő, fura)</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Hegyen fent gyönyörű festői természetben</li>
+                <li>Ha jól látom 6 fős szobák vannak szóval még lenne is saját szobánk kb</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Nincs víz (forrás a kabin mellett)</li>
+                <li>Kb 8km-es túra fel</li>
+            </ul>
+            
+            <h4><a href="https://hyttebestilling.dnt.no/hytte/10356?fromDate=2026-08-24&toDate=2026-08-25&numberOfGuests=6&adults=6&type=cabin&value=10356" target="_blank">Cabin opcio 2: Tvinnestølen</a></h4>
+            <p>Gyakorlatilag minden ugyanaz mint a másik csak ugyanazon a túraúton kicsit előbb van, szóval kb 6km túra.</p>
+            
+            <div class="budget">
+                <h4><a href="https://hyttebestilling.dnt.no/hytte/10428?fromDate=2026-08-24&toDate=2026-08-25&numberOfGuests=6&adults=6&type=cabin&value=10428" target="_blank">Cabin opcio 3: Torfinnsheim</a> ← Budget opció</h4>
+                <p>Ez a völgy másik oldalán van de gyakorlatilag ugyanaz mint a másik kettő. Csak van egy út amivel jobban megközelíthető, szóval csak 2km "túra"/séta.</p>
+            </div>
+            
+            <hr>
+            
+            <h4><a href="https://be.synxis.com/?adult=3&arrive=2026-08-23&chain=9083&child=0&config=FLEISBE&configcode=FLEISBE&currency=NOK&depart=2026-08-24&hotel=23510&level=hotel&locale=en-US&productcurrency=NOK&rooms=1&theme=FLEISBE&themecode=FLEISBE" target="_blank">Út/no opcio 1: Fleischers hotel</a></h4>
+            <p><span class="price">Ár: 4000 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Tóra néző kis erkély előtte zöld terület meg park</li>
+                <li>Voss belvárosban szóval sok activity meg ki tudunk mozdulni (ez jól jön a cons-nál)</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Igazából egy lyuk csak (illetve 2 hahaha mert 2 3 ágyas - Dancs ne szorozd be 2-vel a 4000 az már a 2 szobára vonatkozik)</li>
+            </ul>
+            
+            <h4><a href="https://www.rongastovo.no/the-rooms/rooms/cdd47fd8-303d-496b-b5a8-8347953ee90e" target="_blank">Út/no opcio 2: Voss Lodge Rongastovo</a></h4>
+            <p><span class="price">Ár: 3200 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Grill campfire opportunity</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Picit kiesik az útról</li>
+                <li>Picit eldugottabb részen, de cserébe nem is olyan szép helyen</li>
+            </ul>
+            
+            <hr>
+            
+            <h4><a href="https://www.booking.com/hotel/no/lake-amp-mountain-views-luxury-penthouse-free-parking.html" target="_blank">Booking opcio 1: Luxury penthouse</a></h4>
+            <p><span class="price">Ár: 4000 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Elég hű szerintem az országhoz, simán realisztikus egy városi tehetősebb norvég lakásának elmegy</li>
+                <li>Komoly kilátás a tóra meg mindenre</li>
+                <li>Modern felszereltség</li>
+                <li>Városban</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Picit borsosabb</li>
+            </ul>
+            
+            <h4><a href="https://www.booking.com/hotel/no/luxury-norwegian-mountain-view-apartment-balcony.html" target="_blank">Booking opcio 2: Luxury Norwegian Mountain</a></h4>
+            <p><span class="price">Ár: 3500 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Elképesztő kilátás</li>
+                <li>Fent a hegyen már, mesebeli helyen</li>
+                <li>Modern felszereltség</li>
+                <li>Eldönthetjük felmegyünk kocsival vagy városban parkolunk és gondolával megyünk fel</li>
+                <li>Millió túra gyakorlatilag az ajtóból indulva</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Nem közvetlen a városban (De megy szerpentin szóval kocsival megközelíthető)</li>
+            </ul>
+            
+            <h4><a href="https://www.booking.com/hotel/no/super-cozy-family-house-with-mountain-and-panoramic-views.html" target="_blank">Booking opcio 3: Family home</a></h4>
+            <p><span class="price">Ár: 3700 NOK</span></p>
+            <p><strong>Pros:</strong></p>
+            <ul>
+                <li>Ez egy egész ház, nyugodt helyen</li>
+                <li>BBQ lehetőség</li>
+                <li>Modern felszereltség</li>
+                <li>2 WC!</li>
+            </ul>
+            <p><strong>Cons:</strong></p>
+            <ul>
+                <li>Kicsit távol mindentől (boltok kaja ilyesmi)</li>
+            </ul>
+            
+            <hr>
+            
+            <div class="recommended">
+                <h4><a href="https://www.airbnb.co.in/rooms/1308887328506969506?adults=6&check_in=2026-08-24&check_out=2026-08-25" target="_blank">Airbnb opcio: Voss Bevallen</a> ← Javasolt opció</h4>
+                <p><span class="price">Ár: 3100 NOK</span></p>
+                <p><strong>Pros:</strong></p>
+                <ul>
+                    <li>PRIVÁT SZAUNA!</li>
+                    <li>Elképesztő kilátás (hatalmas terasszal amin elférünk)</li>
+                    <li>Fent a hegyen már, mesebeli helyen</li>
+                    <li>Modern felszereltség</li>
+                    <li>Eldönthetjük felmegyünk kocsival vagy városban parkolunk és gondolával megyünk fel</li>
+                    <li>Millió túra gyakorlatilag az ajtóból indulva</li>
+                </ul>
+                <p><strong>Cons:</strong></p>
+                <ul>
+                    <li>Nem közvetlen a városban (De megy szerpentin szóval kocsival megközelíthető)</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="bottom-nav">
+            <a class="nav-btn" href="index.html">Highlightok oldal</a>
+            <a class="nav-btn" href="routes.html">Útvonalak oldal</a>
+        </div>
+    </div>
+</body>
+</html>
