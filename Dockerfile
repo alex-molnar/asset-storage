@@ -10,3 +10,4 @@ COPY api /usr/share/nginx/api
 COPY main/index.html /usr/share/nginx/html
 COPY main/routes.html /usr/share/nginx/html
 COPY main/accomodations.html /usr/share/nginx/html
+COPY main/plan.html /usr/share/nginx/html
