@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norvégia Trip - Haditerv</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            font-size: 2em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            padding-left: 10px;
+            border-left: 5px solid #e74c3c;
+        }
+        
+        h3 {
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+        
+        h4 {
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #34495e;
+            font-weight: 600;
+        }
+        
+        h5 {
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #34495e;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        em {
+            font-style: italic;
+        }
+        
+        .note {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .note strong {
+            color: #856404;
+        }
+        
+        .booked {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .booked strong {
+            color: #155724;
+        }
+        
+        hr {
+            margin: 30px 0;
+            border: none;
+            border-top: 2px solid #ecf0f1;
+        }
+        
+        .day-section {
+            background-color: #fafafa;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .bottom-nav {
+            margin-top: 40px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .nav-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #2980b9;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ez az oldal</h1>
+        <p>Na végre egy doksi amit nem követ szavazás, gondolhatjátok. Ezt az oldalt azért gondoltam hogy meg legyen minden egy helyen, egyszerűen elérhető helyen, bárki számára. Szóval ha felmerül a kérdés, ohh hogy is volt X meg Y, akkor egy klikkel minden elérhető, bárhonnan bárkinek.</p>
+        
+        <hr>
+        
+        <h1>Tudnivalók</h1>
+        
+        <h3>Hasznos dolgok utazás előtt</h3>
+        <ul>
+            <li><a href="https://apps.apple.com/nl/app/norgeskart-friluftsliv/id1350671128?l=en-GB" target="_blank">Túratérképek</a></li>
+            <li><a href="https://apps.apple.com/nl/app/yr-no/id490989206?l=en-GB" target="_blank">Időjárás app</a></li>
+            <li><a href="https://apps.apple.com/nl/app/too-good-to-go-save-good-food/id1060683933?l=en-GB" target="_blank">Potenciálisan olcsó kaja</a> - ez mondjuk ha jól gondolom nekem meg Marinak megvan szóval az elég is, de ha valaki akarja nézegetni.</li>
+        </ul>
+        
+        <h3>Ami biztosan kell</h3>
+        <ul>
+            <li>Személyi, értelemszerűen</li>
+            <li>Egy embernél jogsi legalább</li>
+            <li>Azért relatíve meleg valami réteg, megha mondjuk túrázásnál melegünk is van csak kiülni meg ilyesmi.</li>
+            <li>Vízálló dzseki/kabát/kutyafasza, értelemszerűen</li>
+            <li>Jó cipő, túracipő, de masszívabb nem teljesen lapostalpú cipő is megteszi ha valaki nem akar csak azért venni cipőt. <strong>Legyen vízálló</strong></li>
+            <li>Először javasoltnak akartam írni, de faszt meggondoltam magam: vízálló nadrág is, sajnos nem tudjuk az időjárást kiszámítani, ha esik ott esik, az pillanatok alatt kegyetlen vizes leszel. Nem kell túlgondolni, <a href="https://www.decathlon.nl/sporten/wandelen/wandelbroek-heren?pdt-highlight=345947&vc=c382m8796550" target="_blank">egy ilyen tökéletes</a> megfelel a célnak, és akkor lehet kényelmesen túrára öltözni de mégis védve maradni.</li>
+            <li>Fürdőgatya, mindenképp hisz szaunázunk is.</li>
+            <li>Nézzétek az időjárást, a magasabb túraspotokon lehet azért elég hűvös.</li>
+        </ul>
+        
+        <h3>Ami biztosan nem kell</h3>
+        <ul>
+            <li>Útlevél, személyi elég a be/ki utazáshoz (Dancs értelemszerűen kivétel)</li>
+            <li>Törülköző, ebből van anyuéknál rengeteg tudok hozni eleget lesz mindenkinek. Főleg a wizzairrel érkezőknek költsétek másra az értékes kis helyet</li>
+            <li>Tusfürdő, fogkrém, etc: ezt is tudunk mind kérni, amúgy se lehet repülőre vinni, szóval ezen se aggódjatok. Ha bármi kérdéses ilyen kell-e kérdezz</li>
+            <li>Papucs úgy néz ki megoldható szintén</li>
+            <li>Norvég korona. Szinte mindenhol van kártya, ha esetleg valahol nincs is mert ilyen becsületkasszás wc ilyesmi, 99,9%-ban van Vipps ami ilyen cashapp szerű cuccuk, szólok anyunak és nekik van. Valamint ha mégis kéne apró vagy tényeleges kp, kérek előtte szintén hogy legyen nálunk valamennyi, de valószínűtlen. Ne baszakódjatok váltással, én se teszem.</li>
+        </ul>
+        
+        <hr>
+        
+        <h1>Haditerv</h1>
+        
+        <div class="day-section">
+            <h2>Péntek</h2>
+            <p><a href="https://www.google.com/maps/dir/Bergeni+rep%C3%BCl%C5%91t%C3%A9r,+Flyplassvegen+555,+5258+Bergen,+Norv%C3%A9gia/Steinsdalsfossen,+Mo+ved+Steinsdalen,+5600+Norheimsund,+Norv%C3%A9gia/L%C3%A5tefossen,+L%C3%A5tefossbrua+5763,+5763+Skare,+Norv%C3%A9gia/R%C3%B8ldal+Accommodation,+Haukelivegen+66,+5760+R%C3%B8ldal,+Norv%C3%A9gia" target="_blank">BGO → Steinsdalsfossen → Låtefossen → Røldal Accommodation</a></p>
+            
+            <h4>Szabad program:</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/listings/latefoss-waterfall/14047/" target="_blank">Låtefoss</a></li>
+                <li><a href="https://www.visitnorway.nl/listings/steinsdalsfossen-waterfall/14039/" target="_blank">Steinsdalsfossen</a></li>
+            </ul>
+            
+            <h4>Foglalható program:</h4>
+            <p>-</p>
+            
+            <div class="booked">
+                <h4>Lefoglalt dolgok</h4>
+                <ul>
+                    <li><a href="https://www.airbnb.com/l/fHZ4xyA9?s=67&unique_share_id=a24a8de5-f6dc-48c5-a34b-c6df55e2950c" target="_blank">Røldal Accommodation</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Szombat</h2>
+            <p><a href="https://www.google.com/maps/dir/R%C3%B8ldal+Accommodation,+Haukelivegen+66,+5760+R%C3%B8ldal,+Norv%C3%A9gia/Gaustatoppen,+3660+Rjukan,+Norv%C3%A9gia" target="_blank">Røldal Accommodation → Gaustatoppen</a></p>
+            
+            <div class="note">
+                <p><strong>Note:</strong> Itt be kell majd vásárolnunk úgy hogy másnap útra is legyen, mert másnap nem lesznek nyitva a boltok. Sőt, mivel reggel korán megyünk biciklizni, én azt mondom jobban át kell gondolnunk, és bevásárolni a biciklitúrára is.</p>
+            </div>
+            
+            <h4>Szabad program:</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/listings/rjukanfossen/14262/" target="_blank">Rijukanfossen</a></li>
+                <li><a href="https://www.visitnorway.com/listings/sculpture-hike-vidsyn-oksatjonn/237526/" target="_blank">Vidsyn - Masken på Vierli</a></li>
+                <li><a href="https://evendo.com/locations/norway/telemark/attraction/turistveg-den-gamle-haukelivegen-scenic-road" target="_blank">Den gamle Haukelivegen (Scenic road)</a> - ez útba esik az egyik alagút helyett körbe tudunk menni</li>
+            </ul>
+            
+            <h4>Foglalható program:</h4>
+            <ul>
+                <li><a href="https://gaustabanen.no/en" target="_blank">Gaustabanen</a> - Van helyszíni jegypénztárjuk is szóval ezt szerintem majd ott kitaláljuk hogy le/fel/mindkettő/egyiksem hogy szeretnénk vele menni, ezt felesleges előre foglalni</li>
+                <li><a href="https://booking.gausta.com/en/to-do/2867223/shuffleboard-p%c3%a5-gaustablikk-fjellresort/showdetails" target="_blank">Shuffleboard</a> - Ez elég nagyot megy úgyhogy akár ki is próbálhatjuk, de kétlem hogy akkora tolongás lenne rá hogy elfogyjanak a pályák</li>
+            </ul>
+            
+            <div class="booked">
+                <h4>Lefoglalt dolgok</h4>
+                <ul>
+                    <li><a href="https://assets.kak.im/assets/pdf/Kvitavatn-Fjellstue.pdf" target="_blank">Kvitåvatn Fjellstue</a></li>
+                    <li><a href="https://doc.citybreak.com/createpdf.aspx?ticket={7be97aaa-d4c1-471f-9ac8-fc1e05f3a535}&contextid=63591&Confirm=1&cnew=1&type=HTML" target="_blank">Floating sauna</a> - Ezt egy órára foglaltam csak, mert tényleg konkrétan egy szauna a végében a mólónak meg a tó. Gondolkodtam a két órán, mert egyébként árban szerintem nem vészes, nem tudom hogy ha a két opció a szauna vagy a 10 fokos víz akkor abból le tudunk-e nyomni 2 órát. Elvileg az órára utána szabad volt ha esetleg a 2t megszavazzuk.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Vasárnap</h2>
+            <p><a href="https://www.google.com/maps/dir/Gaustatoppen,+3660+Rjukan,+Norv%C3%A9gia/Fl%C3%A5m,+5743,+Norv%C3%A9gia" target="_blank">Gausta → Flåm</a></p>
+            
+            <h4>Szabad program:</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/listings/stegastein-viewpoint/245683/" target="_blank">Stegastein</a> - Ez megközelíthető kocsival, van parkoló mellette</li>
+                <li><a href="https://www.visitnorway.nl/listings/hike-to-prest-aurland/233793/" target="_blank">Mount Prest hike</a> - Ez viszont hike</li>
+                <li><a href="https://www.visitnorway.nl/listings/laerdalstunnelen-worlds-longest-road-tunnel/121166/" target="_blank">World's longest tunnel</a> - ezen alapvetően nem mennénk át, de a bejáratánál elmegyünk</li>
+                <li><a href="https://www.aegirbryggeri.no/om-aegir_2/" target="_blank">Ægir brewery</a> - Vannak söreik, meg híres "Viking" menüjük. Valószínűleg az vagyonba, viszont csak söröket kóstolni megoldható. (Van ciderük is)</li>
+                <li>Sajnos nem opcionális: <br><img src="../assets/wtf.png" alt="wtf"></li>
+            </ul>
+            
+            <h4>Foglalható program:</h4>
+            <ul>
+                <li><a href="https://www.norwaysbest.com/en/flam/things-to-do/shuttlebus-flam-aurland" target="_blank">Shuttle bus</a> - Shuttle Flåm városba a szállástól, ezt én szívesen fogadnám, mert ugyanannyi idő mint kocsival, viszont a fent említett brewery az nagyon jó, pár söritalát szívesen elfogyasztanék. Most fél óra múlvára meg tudtam volna 6 jegyet venni, úgyhogy valószínűleg nem sürgős aznap is tudunk dönteni.</li>
+                <li><a href="https://book.flamsbrygga.no/en/book/to-do/1259827/fjordsafari/showdetails" target="_blank">Flåm safari</a> - 1,5-as hajós túra a közeli fjordokon, megnézni vízeséseket meg olyan dolgokat amik csak a vízről láthatóak.</li>
+            </ul>
+            
+            <div class="booked">
+                <h4>Lefoglalt dolgok</h4>
+                <ul>
+                    <li><a href="https://assets.kak.im/assets/pdf/Winjum-Apartments.pdf" target="_blank">Winjum Apartments</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Hétfő</h2>
+            <p><a href="https://www.google.com/maps/dir/Fl%C3%A5m,+5743,+Norv%C3%A9gia/Finse,+5719,+Norv%C3%A9gia" target="_blank">Flåm → Finse</a> → Biciklitúra → <a href="https://www.google.com/maps/dir/Fl%C3%A5m,+5743,+Norv%C3%A9gia/60.6546669,6.4199575" target="_blank">Flåm → Voss</a></p>
+            
+            <h4>Szabad program:</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/listings/bordalsgjelet-gorge/213249/" target="_blank">Bordalsgjelet szoros</a></li>
+                <li><a href="https://www.visitvoss.no/en/voss-gondol" target="_blank">Voss gondola</a> - Kell jegy de szerintem foglalni nem, amúgy is a hegyen leszünk majd meglátjuk ezt útba ejtjük-e</li>
+            </ul>
+            
+            <h4>Foglalható program:</h4>
+            <p>-</p>
+            
+            <div class="booked">
+                <h4>Lefoglalt dolgok</h4>
+                <ul>
+                    <li><em>Home in Voss</em> - Pending - még vissza kell igazolni</li>
+                    <li><em>Flåm zipline</em> - Pending - ha megvolt a szavazás tudom foglalni</li>
+                    <li><a href="https://booking.hotelfinse1222.no/booking-confirmation?channelid=259222bd-34e7-4fcd-bc75-29a239035ad8&bookingguid=a19cbd51-11e8-4bb0-9b60-ab949eb89d80&bookingcode=HH15VX10ID" target="_blank">Hotel 1222 rental</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Kedd</h2>
+            <p><a href="https://www.google.com/maps/dir/60.6544788,6.4199246/Fr%C3%B8yset,+5986+Hosteland,+Norv%C3%A9gia" target="_blank">Voss → Frøyset</a></p>
+            
+            <h4>Szabad program:</h4>
+            <ul>
+                <li>Időtől függően a túra Øyvinddel</li>
+            </ul>
+            
+            <h4>Foglalható program:</h4>
+            <p>-</p>
+            
+            <div class="booked">
+                <h4>Lefoglalt dolgok</h4>
+                <ul>
+                    <li>Mamahotel</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="day-section">
+            <h2>Szerda</h2>
+            
+            <div class="note">
+                <p><strong>Szerda logisztikája:</strong> A kisbusz mellett valaki vezet egy kocsit amit kölcsönbe kapunk/kapok aznapra, így a visszaadás után nekem van kocsim. Így senkinek nem kell otthonról pluszba eljönnie.</p>
+            </div>
+            
+            <p><a href="https://www.google.com/maps/dir/Fr%C3%B8yset,+5986+Hosteland,+Norv%C3%A9gia/Bergeni+rep%C3%BCl%C5%91t%C3%A9r,+Flyplassvegen+555,+5258+Bergen,+Norv%C3%A9gia" target="_blank">Frøyset → BGO</a></p>
+            
+            <h4>Szabad program:</h4>
+            <ul>
+                <li><a href="https://www.visitnorway.nl/bestemmingen-in-noorwegen/regio-west/bergen/bryggen/" target="_blank">Bryggen</a></li>
+                <li><a href="https://www.visitnorway.nl/listings/all-year-christmas-shop/15363/" target="_blank">Christmas Shop</a></li>
+            </ul>
+            
+            <h4>Foglalható program:</h4>
+            <p>-</p>
+            
+            <h4>Lefoglalt dolgok:</h4>
+            <p>-</p>
+        </div>
+        
+        <div class="bottom-nav">
+            <a class="nav-btn" href="index.html">Highlightok oldal</a>
+            <a class="nav-btn" href="routes.html">Útvonalak oldal</a>
+            <a class="nav-btn" href="accomodations.html">Szállások oldal</a>
+        </div>
+    </div>
+</body>
+</html>
