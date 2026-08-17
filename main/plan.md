@@ -84,8 +84,8 @@ Na vegre egy doksi amit nem kovet szavazas, gondolhatjatok. Ezt az oldalt azert 
 -
 
 #### Lefoglalt dolgok
-- *Home in Voss* Pending - meg vissza kell igazolni
-- *Flam zipline*: Pending - ha megvolt a szavazas tudom foglalni
+- [Home in Voss](https://www.airbnb.com/l/jXgqveLv?s=67&unique_share_id=1364e88a-f94c-486b-81ee-3e57b1d98f87)
+- [Flam zipline](https://t.iticket.com/ticket.html?ordercode=OWF496AAK-c64517)
 - [Hotel 1222 rental](https://booking.hotelfinse1222.no/booking-confirmation?channelid=259222bd-34e7-4fcd-bc75-29a239035ad8&bookingguid=a19cbd51-11e8-4bb0-9b60-ab949eb89d80&bookingcode=HH15VX10ID)
 
 ## Kedd
