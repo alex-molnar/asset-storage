@@ -85,6 +85,7 @@ Na vegre egy doksi amit nem kovet szavazas, gondolhatjatok. Ezt az oldalt azert 
 
 #### Lefoglalt dolgok
 - [Home in Voss](https://www.airbnb.com/l/jXgqveLv?s=67&unique_share_id=1364e88a-f94c-486b-81ee-3e57b1d98f87)
+- [Vy train ticket](https://www.vy.no/bestill/oppsummering/v2/DTL-HIL-CKP?signature=2328dd466ad7d837d8e331d8ec77940690b97ab2ce950ac37525680928ba59ae)
 - [Flam zipline](https://t.iticket.com/ticket.html?ordercode=OWF496AAK-c64517)
 - [Hotel 1222 rental](https://booking.hotelfinse1222.no/booking-confirmation?channelid=259222bd-34e7-4fcd-bc75-29a239035ad8&bookingguid=a19cbd51-11e8-4bb0-9b60-ab949eb89d80&bookingcode=HH15VX10ID)
 
