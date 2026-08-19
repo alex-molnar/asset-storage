@@ -7,6 +7,27 @@ Na vegre egy doksi amit nem kovet szavazas, gondolhatjatok. Ezt az oldalt azert 
 - [Idojaras app](https://apps.apple.com/nl/app/yr-no/id490989206?l=en-GB)
 - [Potencialisan olcso kaja](https://apps.apple.com/nl/app/too-good-to-go-save-good-food/id1060683933?l=en-GB), ez mondjuk ha jol gondolom nekem meg Mariknak meg van szoval az eleg is, de ha valaki akarja nezegetni.
 
+## Nyelv
+- Kiejtesek
+  - æ/Æ: Kb ahogy ejtened az *a* es az *e* kozott valahol, egy kis *é* hanggal belemixelve.
+  - ø/Ø: Kb a rovid *ö* hang. Szoval pl Øyvind neve ejtsd: *Öjvind*
+  - å/Å: Ejtsd *o*/*ó*. Szoval pl Flåm ejtsd: *Flom*, Årland ejtsd: *Órland* [telepulesek]
+  - y/Y: Ejtsd *ű*. Pl Vy ejtsd: Vű [norveg MAV]
+  - u/U: Ejtsd *ü*. pl buss ejtsd *büssz* [busz]
+  - o/O: Ejtsd *ú*. pl god ejtsd *gú* [jo]
+- Par hasznos kifejezes:
+  - *Hei Hei*: ejtsd ugy mint angolul "hi". Nincs semmi jelentosege duplan mondani, de igy szoktak hasznalni
+  - *Takk*: koszonom
+  - *Tur*: ejtsd: "tűr" - hike, tura
+  - *God morgen*: ejtsd "gú moren" / "gú morn" - jo reggelt, hasonloan angolhoz egesz delelott
+  - *Ha det [bra]*: ejtsd "há de [brá]" - elkoszones, a "bra"-t hozzateve fromalisabb, nagyrezben elhagyhato
+  - *Unnskyld*: ejtsd "ünsüld" - sorry / excuse me
+- Par meghasznosabb kifejezes:
+  - [Fy] faen: ejtsd kb "[fű] faan" - bazdmeg, a fy prefix csak kicsit jobban hangsulyozza 
+  - Helvete - kb olyasmit jelent hogy "pokolba"
+  - Drittsekk: ejtsd "drüttszekk" - seggfej kb
+  - Herregud: ejtsd "herregüd" - ilyen porco dio vibe
+
 ## Ami biztosan kell
 - Szemelyi, ertelemszeruen
 - Egy embernel jogsi legalabb
